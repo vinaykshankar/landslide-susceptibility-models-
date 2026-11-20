@@ -1,0 +1,49 @@
+comparison,mean_diff,wins,n,p_value
+wayanad: spatial CV - random CV | LR,-0.019916351725875504,0,10,0.001953125
+wayanad: spatial CV S4 - S1 | LR,0.0041652809271856776,9,10,0.013671875
+kodagu: spatial CV - random CV | LR,-0.0255750796377035,0,10,0.001953125
+kodagu: spatial CV S4 - S1 | LR,-0.043603294138371405,0,10,0.001953125
+wayanad->kodagu: transfer S1 - target spatial CV | LR,-0.20014092570572953,0,10,0.001953125
+wayanad->kodagu: S2_regional_z - S1 | LR,0.014864726002260697,10,10,0.001953125
+wayanad->kodagu: S3_drop_shifted - S1 | LR,0.012303107705406569,8,10,0.02734375
+wayanad->kodagu: S4_no_rainfall - S1 | LR,0.010372719132132524,8,10,0.10546875
+kodagu->wayanad: transfer S1 - target spatial CV | LR,-0.1192088687326783,0,10,0.001953125
+kodagu->wayanad: S2_regional_z - S1 | LR,-0.019848828420257016,0,10,0.001953125
+kodagu->wayanad: S3_drop_shifted - S1 | LR,0.014342151675485016,8,10,0.013671875
+kodagu->wayanad: S4_no_rainfall - S1 | LR,0.03562610229276895,10,10,0.001953125
+wayanad: spatial CV - random CV | RF,-0.017416477702192013,0,10,0.001953125
+wayanad: spatial CV S4 - S1 | RF,-0.02553993449231543,0,10,0.001953125
+kodagu: spatial CV - random CV | RF,-0.023280632991294892,0,10,0.001953125
+kodagu: spatial CV S4 - S1 | RF,-0.03391905579777162,0,10,0.001953125
+wayanad->kodagu: transfer S1 - target spatial CV | RF,-0.12924648786717752,0,10,0.001953125
+wayanad->kodagu: S2_regional_z - S1 | RF,0.040833223235125726,10,10,0.001953125
+wayanad->kodagu: S3_drop_shifted - S1 | RF,0.019146078301845216,10,10,0.001953125
+wayanad->kodagu: S4_no_rainfall - S1 | RF,0.02223396603103297,8,10,0.009765625
+kodagu->wayanad: transfer S1 - target spatial CV | RF,-0.0576618795666415,0,10,0.001953125
+kodagu->wayanad: S2_regional_z - S1 | RF,-0.005535903250188934,3,10,0.322265625
+kodagu->wayanad: S3_drop_shifted - S1 | RF,-0.0011237087427563575,4,10,0.6953125
+kodagu->wayanad: S4_no_rainfall - S1 | RF,-0.017337364575459778,1,10,0.0078125
+wayanad: spatial CV - random CV | XGB,-0.023104560342655588,0,10,0.001953125
+wayanad: spatial CV S4 - S1 | XGB,-0.03196926177878562,0,10,0.001953125
+kodagu: spatial CV - random CV | XGB,-0.029134921683475035,0,10,0.001953125
+kodagu: spatial CV S4 - S1 | XGB,-0.03608285257116013,0,10,0.001953125
+wayanad->kodagu: transfer S1 - target spatial CV | XGB,-0.18094713818059036,0,10,0.001953125
+wayanad->kodagu: S2_regional_z - S1 | XGB,0.08249585296751365,10,10,0.001953125
+wayanad->kodagu: S3_drop_shifted - S1 | XGB,0.030627853378546965,9,10,0.00390625
+wayanad->kodagu: S4_no_rainfall - S1 | XGB,0.07150511589671317,9,10,0.00390625
+kodagu->wayanad: transfer S1 - target spatial CV | XGB,-0.10087629125724365,0,10,0.001953125
+kodagu->wayanad: S2_regional_z - S1 | XGB,-0.021636684303350962,1,10,0.005859375
+kodagu->wayanad: S3_drop_shifted - S1 | XGB,0.0029609473418997223,5,10,0.625
+kodagu->wayanad: S4_no_rainfall - S1 | XGB,0.020197530864197556,6,10,0.10546875
+wayanad: spatial CV - random CV | LGBM,-0.020570420760896945,0,10,0.001953125
+wayanad: spatial CV S4 - S1 | LGBM,-0.034264550264550254,0,10,0.001953125
+kodagu: spatial CV - random CV | LGBM,-0.031222383699593313,0,10,0.001953125
+kodagu: spatial CV S4 - S1 | LGBM,-0.03544575094317468,0,10,0.001953125
+wayanad->kodagu: transfer S1 - target spatial CV | LGBM,-0.21608755009468456,0,10,0.001953125
+wayanad->kodagu: S2_regional_z - S1 | LGBM,0.11493372087902412,10,10,0.001953125
+wayanad->kodagu: S3_drop_shifted - S1 | LGBM,0.037462750106428265,9,10,0.005859375
+wayanad->kodagu: S4_no_rainfall - S1 | LGBM,0.09796832107573292,10,10,0.001953125
+kodagu->wayanad: transfer S1 - target spatial CV | LGBM,-0.09348853615520283,0,10,0.001953125
+kodagu->wayanad: S2_regional_z - S1 | LGBM,-0.009660871756109824,2,10,0.16015625
+kodagu->wayanad: S3_drop_shifted - S1 | LGBM,-0.011395313681027952,1,10,0.013671875
+kodagu->wayanad: S4_no_rainfall - S1 | LGBM,-0.002783572688334546,3,10,0.845703125

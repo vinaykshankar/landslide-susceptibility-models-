@@ -1,0 +1,5 @@
+district,cells,median_m,p25_m,p75_m,within_250m_pct
+wayanad,landslide,335,60,921,45.4
+wayanad,absence,120,42,361,69.8
+kodagu,landslide,170,30,430,59.0
+kodagu,absence,516,180,1068,30.7

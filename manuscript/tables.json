@@ -1,0 +1,2478 @@
+{
+ "table2": [
+  [
+   "Training district",
+   "Validation design",
+   "Test samples",
+   "LR",
+   "RF",
+   "XGB",
+   "LGBM"
+  ],
+  [
+   "Wayanad",
+   "Random 10-fold CV",
+   "Wayanad",
+   "0.867 ± 0.014",
+   "0.910 ± 0.011",
+   "0.907 ± 0.011",
+   "0.909 ± 0.012"
+  ],
+  [
+   "Wayanad",
+   "Spatial block CV (5 km)",
+   "Wayanad",
+   "0.847 ± 0.016",
+   "0.893 ± 0.013",
+   "0.884 ± 0.014",
+   "0.888 ± 0.014"
+  ],
+  [
+   "Wayanad",
+   "Cross-district transfer",
+   "Kodagu",
+   "0.712 ± 0.027",
+   "0.806 ± 0.019",
+   "0.746 ± 0.042",
+   "0.714 ± 0.044"
+  ],
+  [
+   "Kodagu",
+   "Random 10-fold CV",
+   "Kodagu",
+   "0.937 ± 0.010",
+   "0.959 ± 0.005",
+   "0.956 ± 0.006",
+   "0.961 ± 0.006"
+  ],
+  [
+   "Kodagu",
+   "Spatial block CV (5 km)",
+   "Kodagu",
+   "0.912 ± 0.014",
+   "0.936 ± 0.011",
+   "0.927 ± 0.012",
+   "0.930 ± 0.016"
+  ],
+  [
+   "Kodagu",
+   "Cross-district transfer",
+   "Wayanad",
+   "0.728 ± 0.019",
+   "0.835 ± 0.020",
+   "0.783 ± 0.038",
+   "0.795 ± 0.032"
+  ]
+ ],
+ "tableS1": [
+  [
+   "Training",
+   "Design",
+   "Model",
+   "AUC",
+   "Accuracy",
+   "F1",
+   "Kappa",
+   "Brier"
+  ],
+  [
+   "Kodagu",
+   "random_10fold",
+   "LGBM",
+   "0.961",
+   "0.899",
+   "0.901",
+   "0.798",
+   "0.086"
+  ],
+  [
+   "Kodagu",
+   "random_10fold",
+   "LR",
+   "0.937",
+   "0.881",
+   "0.886",
+   "0.762",
+   "0.094"
+  ],
+  [
+   "Kodagu",
+   "random_10fold",
+   "RF",
+   "0.959",
+   "0.899",
+   "0.899",
+   "0.798",
+   "0.082"
+  ],
+  [
+   "Kodagu",
+   "random_10fold",
+   "XGB",
+   "0.956",
+   "0.895",
+   "0.895",
+   "0.789",
+   "0.081"
+  ],
+  [
+   "Kodagu",
+   "spatial_block5km",
+   "LGBM",
+   "0.930",
+   "0.855",
+   "0.851",
+   "0.710",
+   "0.123"
+  ],
+  [
+   "Kodagu",
+   "spatial_block5km",
+   "LR",
+   "0.912",
+   "0.853",
+   "0.856",
+   "0.705",
+   "0.114"
+  ],
+  [
+   "Kodagu",
+   "spatial_block5km",
+   "RF",
+   "0.936",
+   "0.868",
+   "0.865",
+   "0.737",
+   "0.104"
+  ],
+  [
+   "Kodagu",
+   "spatial_block5km",
+   "XGB",
+   "0.927",
+   "0.853",
+   "0.849",
+   "0.707",
+   "0.108"
+  ],
+  [
+   "Kodagu",
+   "transfer",
+   "LGBM",
+   "0.795",
+   "0.508",
+   "0.050",
+   "0.015",
+   "0.473"
+  ],
+  [
+   "Kodagu",
+   "transfer",
+   "LR",
+   "0.728",
+   "0.510",
+   "0.054",
+   "0.021",
+   "0.436"
+  ],
+  [
+   "Kodagu",
+   "transfer",
+   "RF",
+   "0.835",
+   "0.522",
+   "0.106",
+   "0.045",
+   "0.275"
+  ],
+  [
+   "Kodagu",
+   "transfer",
+   "XGB",
+   "0.783",
+   "0.512",
+   "0.064",
+   "0.023",
+   "0.418"
+  ],
+  [
+   "Wayanad",
+   "random_10fold",
+   "LGBM",
+   "0.909",
+   "0.835",
+   "0.839",
+   "0.670",
+   "0.137"
+  ],
+  [
+   "Wayanad",
+   "random_10fold",
+   "LR",
+   "0.867",
+   "0.796",
+   "0.801",
+   "0.592",
+   "0.145"
+  ],
+  [
+   "Wayanad",
+   "random_10fold",
+   "RF",
+   "0.910",
+   "0.833",
+   "0.838",
+   "0.665",
+   "0.118"
+  ],
+  [
+   "Wayanad",
+   "random_10fold",
+   "XGB",
+   "0.907",
+   "0.831",
+   "0.835",
+   "0.662",
+   "0.127"
+  ],
+  [
+   "Wayanad",
+   "spatial_block5km",
+   "LGBM",
+   "0.888",
+   "0.809",
+   "0.809",
+   "0.617",
+   "0.159"
+  ],
+  [
+   "Wayanad",
+   "spatial_block5km",
+   "LR",
+   "0.847",
+   "0.778",
+   "0.780",
+   "0.556",
+   "0.157"
+  ],
+  [
+   "Wayanad",
+   "spatial_block5km",
+   "RF",
+   "0.893",
+   "0.820",
+   "0.824",
+   "0.641",
+   "0.130"
+  ],
+  [
+   "Wayanad",
+   "spatial_block5km",
+   "XGB",
+   "0.884",
+   "0.802",
+   "0.801",
+   "0.604",
+   "0.146"
+  ],
+  [
+   "Wayanad",
+   "transfer",
+   "LGBM",
+   "0.714",
+   "0.608",
+   "0.526",
+   "0.217",
+   "0.306"
+  ],
+  [
+   "Wayanad",
+   "transfer",
+   "LR",
+   "0.712",
+   "0.595",
+   "0.525",
+   "0.190",
+   "0.267"
+  ],
+  [
+   "Wayanad",
+   "transfer",
+   "RF",
+   "0.806",
+   "0.735",
+   "0.742",
+   "0.470",
+   "0.179"
+  ],
+  [
+   "Wayanad",
+   "transfer",
+   "XGB",
+   "0.746",
+   "0.633",
+   "0.557",
+   "0.265",
+   "0.248"
+  ]
+ ],
+ "table3": [
+  [
+   "Factor",
+   "Mean Wayanad",
+   "Mean Kodagu",
+   "SMD",
+   "W₁ (std.)",
+   "Adversarial AUC"
+  ],
+  [
+   "August 2018 rainfall (mm)",
+   "380",
+   "673",
+   "+1.38",
+   "1.38",
+   "0.81"
+  ],
+  [
+   "Elevation (m)",
+   "844",
+   "879",
+   "+0.18",
+   "0.57",
+   "0.68"
+  ],
+  [
+   "Mean annual rainfall (mm)",
+   "2268",
+   "2704",
+   "+0.74",
+   "0.76",
+   "0.67"
+  ],
+  [
+   "Sand 0–30 cm (%)",
+   "41",
+   "40",
+   "-0.15",
+   "0.46",
+   "0.59"
+  ],
+  [
+   "Clay 0–30 cm (%)",
+   "33",
+   "33",
+   "+0.13",
+   "0.13",
+   "0.53"
+  ],
+  [
+   "Distance to streams (m)",
+   "304",
+   "322",
+   "+0.09",
+   "0.09",
+   "0.52"
+  ],
+  [
+   "Eastness",
+   "0.02",
+   "-0.02",
+   "-0.06",
+   "0.06",
+   "0.52"
+  ],
+  [
+   "Plan curvature (100 m⁻¹)",
+   "-0.03",
+   "-0.01",
+   "+0.04",
+   "0.07",
+   "0.51"
+  ],
+  [
+   "Bulk density 0–30 cm (g cm⁻³)",
+   "1.17",
+   "1.17",
+   "-0.05",
+   "0.26",
+   "0.51"
+  ],
+  [
+   "Profile curvature (100 m⁻¹)",
+   "-0.03",
+   "-0.01",
+   "+0.04",
+   "0.05",
+   "0.51"
+  ],
+  [
+   "TWI",
+   "7.06",
+   "7.08",
+   "+0.01",
+   "0.05",
+   "0.51"
+  ],
+  [
+   "SPI (ln)",
+   "3.33",
+   "3.38",
+   "+0.04",
+   "0.07",
+   "0.51"
+  ],
+  [
+   "Slope (°)",
+   "11",
+   "12",
+   "+0.08",
+   "0.12",
+   "0.51"
+  ],
+  [
+   "TRI (m)",
+   "16",
+   "17",
+   "+0.08",
+   "0.14",
+   "0.50"
+  ],
+  [
+   "Northness",
+   "-0.01",
+   "-0.02",
+   "-0.00",
+   "0.01",
+   "0.50"
+  ]
+ ],
+ "table4": [
+  [
+   "Direction",
+   "Strategy",
+   "LR",
+   "RF",
+   "XGB",
+   "LGBM"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1 all factors",
+   "0.712 ± 0.027",
+   "0.806 ± 0.019",
+   "0.746 ± 0.042",
+   "0.714 ± 0.044"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S2 regional z-scores",
+   "0.727 ± 0.023**",
+   "0.847 ± 0.014**",
+   "0.829 ± 0.033**",
+   "0.828 ± 0.030**"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S3 shifted factor removed",
+   "0.724 ± 0.022*",
+   "0.825 ± 0.012**",
+   "0.777 ± 0.026**",
+   "0.751 ± 0.026**"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4 rainfall removed",
+   "0.722 ± 0.022",
+   "0.829 ± 0.011**",
+   "0.818 ± 0.022**",
+   "0.811 ± 0.024**"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1 all factors",
+   "0.728 ± 0.019",
+   "0.835 ± 0.020",
+   "0.783 ± 0.038",
+   "0.795 ± 0.032"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S2 regional z-scores",
+   "0.708 ± 0.025**",
+   "0.830 ± 0.023",
+   "0.761 ± 0.027**",
+   "0.785 ± 0.031"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S3 shifted factor removed",
+   "0.743 ± 0.017*",
+   "0.834 ± 0.014",
+   "0.786 ± 0.029",
+   "0.783 ± 0.028*"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4 rainfall removed",
+   "0.764 ± 0.013**",
+   "0.818 ± 0.015**",
+   "0.803 ± 0.016",
+   "0.792 ± 0.014"
+  ]
+ ],
+ "table5": [
+  [
+   "Factor",
+   "Mean |SHAP| Wayanad model (rank)",
+   "Mean |SHAP| Kodagu model (rank)",
+   "Effect agreement r (mean ± SD)"
+  ],
+  [
+   "August 2018 rainfall",
+   "1.11 (1)",
+   "1.71 (1)",
+   "-0.18 ± 0.15"
+  ],
+  [
+   "Bulk density 0–30 cm",
+   "0.83 (2)",
+   "0.70 (4)",
+   "0.27 ± 0.25"
+  ],
+  [
+   "TRI",
+   "0.82 (3)",
+   "0.87 (2)",
+   "0.87 ± 0.07"
+  ],
+  [
+   "Mean annual rainfall",
+   "0.72 (4)",
+   "0.81 (3)",
+   "-0.00 ± 0.07"
+  ],
+  [
+   "Elevation",
+   "0.42 (5)",
+   "0.47 (6)",
+   "0.05 ± 0.28"
+  ],
+  [
+   "Slope",
+   "0.39 (6)",
+   "0.25 (13)",
+   "0.46 ± 0.42"
+  ],
+  [
+   "SPI",
+   "0.28 (7)",
+   "0.13 (16)",
+   "0.22 ± 0.27"
+  ],
+  [
+   "Clay 0–30 cm",
+   "0.25 (8)",
+   "0.27 (9)",
+   "0.17 ± 0.35"
+  ],
+  [
+   "TWI",
+   "0.23 (9)",
+   "0.31 (8)",
+   "0.43 ± 0.13"
+  ],
+  [
+   "Plan curvature",
+   "0.23 (10)",
+   "0.17 (14)",
+   "0.21 ± 0.43"
+  ],
+  [
+   "Profile curvature",
+   "0.22 (11)",
+   "0.26 (12)",
+   "0.13 ± 0.22"
+  ],
+  [
+   "Distance to streams",
+   "0.22 (12)",
+   "0.26 (11)",
+   "0.34 ± 0.24"
+  ],
+  [
+   "Eastness",
+   "0.20 (13)",
+   "0.17 (15)",
+   "0.08 ± 0.38"
+  ],
+  [
+   "Northness",
+   "0.18 (14)",
+   "0.36 (7)",
+   "0.04 ± 0.49"
+  ],
+  [
+   "Sand 0–30 cm",
+   "0.15 (15)",
+   "0.27 (10)",
+   "0.10 ± 0.20"
+  ],
+  [
+   "Lithology",
+   "0.11 (16)",
+   "0.53 (5)",
+   "0.38 ± 0.52"
+  ],
+  [
+   "Land cover",
+   "0.01 (17)",
+   "0.04 (17)",
+   "-0.87 ± 0.09"
+  ]
+ ],
+ "table6": [
+  [
+   "Map",
+   "Very low",
+   "Low",
+   "Moderate",
+   "High",
+   "Very high"
+  ],
+  [
+   "S1 all factors",
+   "0.0 (0.00)",
+   "0.8 (0.04)",
+   "12.3 (0.61)",
+   "38.3 (1.92)",
+   "48.7 (2.43)"
+  ],
+  [
+   "S2 regional z-scores",
+   "0.0 (0.00)",
+   "0.0 (0.00)",
+   "3.1 (0.15)",
+   "25.3 (1.26)",
+   "71.6 (3.58)"
+  ],
+  [
+   "S3 shifted factor removed",
+   "0.0 (0.00)",
+   "0.8 (0.04)",
+   "11.1 (0.56)",
+   "30.7 (1.53)",
+   "57.5 (2.87)"
+  ],
+  [
+   "S4 rainfall removed",
+   "0.4 (0.02)",
+   "0.8 (0.04)",
+   "8.0 (0.40)",
+   "23.8 (1.19)",
+   "67.0 (3.35)"
+  ]
+ ],
+ "table7": [
+  [
+   "Design",
+   "Strategy",
+   "Model",
+   "AUC without roads",
+   "AUC with roads",
+   "Δ"
+  ],
+  [
+   "Spatial CV, Wayanad",
+   "S1",
+   "RF",
+   "0.893",
+   "0.895",
+   "+0.002"
+  ],
+  [
+   "Spatial CV, Wayanad",
+   "S1",
+   "XGB",
+   "0.884",
+   "0.886",
+   "+0.003"
+  ],
+  [
+   "Spatial CV, Kodagu",
+   "S1",
+   "RF",
+   "0.936",
+   "0.943",
+   "+0.007"
+  ],
+  [
+   "Spatial CV, Kodagu",
+   "S1",
+   "XGB",
+   "0.927",
+   "0.940",
+   "+0.013"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1",
+   "RF",
+   "0.806",
+   "0.809",
+   "+0.003"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1",
+   "XGB",
+   "0.746",
+   "0.780",
+   "+0.033"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S2",
+   "RF",
+   "0.847",
+   "0.860",
+   "+0.013"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S2",
+   "XGB",
+   "0.829",
+   "0.856",
+   "+0.027"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4",
+   "RF",
+   "0.829",
+   "0.845",
+   "+0.017"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4",
+   "XGB",
+   "0.818",
+   "0.851",
+   "+0.033"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1",
+   "RF",
+   "0.835",
+   "0.838",
+   "+0.003"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1",
+   "XGB",
+   "0.783",
+   "0.758",
+   "-0.024"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4",
+   "RF",
+   "0.818",
+   "0.819",
+   "+0.002"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4",
+   "XGB",
+   "0.803",
+   "0.792",
+   "-0.011"
+  ]
+ ],
+ "table8": [
+  [
+   "Factor set",
+   "Factors",
+   "Largest single-factor AUC",
+   "Multivariate adversarial AUC"
+  ],
+  [
+   "All factors",
+   "24",
+   "0.81",
+   "1.000"
+  ],
+  [
+   "All continuous",
+   "15",
+   "0.81",
+   "1.000"
+  ],
+  [
+   "All minus rainfall",
+   "22",
+   "0.68",
+   "0.977"
+  ],
+  [
+   "All minus rainfall and elevation",
+   "21",
+   "0.59",
+   "0.861"
+  ],
+  [
+   "Stable factors only (marginal AUC <= 0.55)",
+   "20",
+   "0.53",
+   "0.791"
+  ],
+  [
+   "Terrain and hydrology only",
+   "9",
+   "0.52",
+   "0.585"
+  ],
+  [
+   "Terrain derivatives only",
+   "6",
+   "0.52",
+   "0.572"
+  ],
+  [
+   "Hydrology only",
+   "3",
+   "0.52",
+   "0.564"
+  ],
+  [
+   "Soil only",
+   "3",
+   "0.59",
+   "0.811"
+  ],
+  [
+   "Rainfall only",
+   "2",
+   "0.81",
+   "0.980"
+  ],
+  [
+   "Elevation only",
+   "1",
+   "0.68",
+   "0.804"
+  ],
+  [
+   "Lithology and land cover only",
+   "9",
+   "–",
+   "0.610"
+  ],
+  [
+   "Lithology only",
+   "5",
+   "–",
+   "0.587"
+  ]
+ ],
+ "table9": [
+  [
+   "Direction",
+   "Factor set",
+   "Model",
+   "Within-district CV (source)",
+   "Transfer AUC",
+   "Optimism gap"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1 all factors",
+   "LR",
+   "0.849",
+   "0.712 ± 0.027",
+   "+0.201"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1 all factors",
+   "RF",
+   "0.893",
+   "0.806 ± 0.019",
+   "+0.127"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1 all factors",
+   "XGB",
+   "0.884",
+   "0.748 ± 0.044",
+   "+0.180"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S1 all factors",
+   "LGBM",
+   "0.887",
+   "0.714 ± 0.044",
+   "+0.217"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4 all rainfall removed",
+   "LR",
+   "0.854",
+   "0.722 ± 0.022",
+   "+0.145"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4 all rainfall removed",
+   "RF",
+   "0.868",
+   "0.829 ± 0.011",
+   "+0.070"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4 all rainfall removed",
+   "XGB",
+   "0.852",
+   "0.817 ± 0.018",
+   "+0.073"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "S4 all rainfall removed",
+   "LGBM",
+   "0.856",
+   "0.811 ± 0.024",
+   "+0.082"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T1 terrain and hydrology only",
+   "LR",
+   "0.831",
+   "0.792 ± 0.018",
+   "-0.020"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T1 terrain and hydrology only",
+   "RF",
+   "0.818",
+   "0.794 ± 0.019",
+   "-0.025"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T1 terrain and hydrology only",
+   "XGB",
+   "0.796",
+   "0.774 ± 0.022",
+   "-0.022"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T1 terrain and hydrology only",
+   "LGBM",
+   "0.795",
+   "0.773 ± 0.021",
+   "-0.022"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T2 terrain, hydrology and elevation",
+   "LR",
+   "0.829",
+   "0.796 ± 0.029",
+   "+0.006"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T2 terrain, hydrology and elevation",
+   "RF",
+   "0.839",
+   "0.828 ± 0.018",
+   "-0.011"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T2 terrain, hydrology and elevation",
+   "XGB",
+   "0.819",
+   "0.816 ± 0.019",
+   "-0.005"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T2 terrain, hydrology and elevation",
+   "LGBM",
+   "0.819",
+   "0.815 ± 0.016",
+   "-0.003"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T3 unshifted factors only",
+   "LR",
+   "0.850",
+   "0.767 ± 0.019",
+   "+0.094"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T3 unshifted factors only",
+   "RF",
+   "0.859",
+   "0.807 ± 0.011",
+   "+0.077"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T3 unshifted factors only",
+   "XGB",
+   "0.845",
+   "0.794 ± 0.018",
+   "+0.082"
+  ],
+  [
+   "Wayanad → Kodagu",
+   "T3 unshifted factors only",
+   "LGBM",
+   "0.846",
+   "0.791 ± 0.017",
+   "+0.090"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1 all factors",
+   "LR",
+   "0.913",
+   "0.728 ± 0.019",
+   "+0.121"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1 all factors",
+   "RF",
+   "0.933",
+   "0.835 ± 0.020",
+   "+0.058"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1 all factors",
+   "XGB",
+   "0.929",
+   "0.785 ± 0.041",
+   "+0.099"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S1 all factors",
+   "LGBM",
+   "0.930",
+   "0.795 ± 0.032",
+   "+0.092"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4 all rainfall removed",
+   "LR",
+   "0.867",
+   "0.764 ± 0.013",
+   "+0.091"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4 all rainfall removed",
+   "RF",
+   "0.898",
+   "0.818 ± 0.015",
+   "+0.050"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4 all rainfall removed",
+   "XGB",
+   "0.890",
+   "0.804 ± 0.015",
+   "+0.048"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "S4 all rainfall removed",
+   "LGBM",
+   "0.893",
+   "0.792 ± 0.014",
+   "+0.064"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T1 terrain and hydrology only",
+   "LR",
+   "0.772",
+   "0.823 ± 0.015",
+   "+0.008"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T1 terrain and hydrology only",
+   "RF",
+   "0.770",
+   "0.801 ± 0.024",
+   "+0.017"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T1 terrain and hydrology only",
+   "XGB",
+   "0.752",
+   "0.772 ± 0.026",
+   "+0.024"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T1 terrain and hydrology only",
+   "LGBM",
+   "0.751",
+   "0.768 ± 0.024",
+   "+0.027"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T2 terrain, hydrology and elevation",
+   "LR",
+   "0.803",
+   "0.827 ± 0.013",
+   "+0.002"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T2 terrain, hydrology and elevation",
+   "RF",
+   "0.817",
+   "0.841 ± 0.017",
+   "-0.003"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T2 terrain, hydrology and elevation",
+   "XGB",
+   "0.811",
+   "0.822 ± 0.022",
+   "-0.003"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T2 terrain, hydrology and elevation",
+   "LGBM",
+   "0.811",
+   "0.820 ± 0.024",
+   "-0.000"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T3 unshifted factors only",
+   "LR",
+   "0.861",
+   "0.755 ± 0.012",
+   "+0.096"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T3 unshifted factors only",
+   "RF",
+   "0.884",
+   "0.790 ± 0.015",
+   "+0.069"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T3 unshifted factors only",
+   "XGB",
+   "0.876",
+   "0.757 ± 0.016",
+   "+0.088"
+  ],
+  [
+   "Kodagu → Wayanad",
+   "T3 unshifted factors only",
+   "LGBM",
+   "0.881",
+   "0.751 ± 0.014",
+   "+0.095"
+  ]
+ ],
+ "table10": [
+  [
+   "Factor set",
+   "Design",
+   "Trained in",
+   "Model",
+   "All cells",
+   "Slope ≥ 15°",
+   "Slope ≥ 20°",
+   "Slope ≥ 25°"
+  ],
+  [
+   "S1 all factors",
+   "Spatial CV",
+   "Kodagu",
+   "RF",
+   "0.933",
+   "0.896",
+   "0.913",
+   "0.905"
+  ],
+  [
+   "S1 all factors",
+   "Spatial CV",
+   "Kodagu",
+   "XGB",
+   "0.929",
+   "0.892",
+   "0.908",
+   "0.905"
+  ],
+  [
+   "S1 all factors",
+   "Spatial CV",
+   "Wayanad",
+   "RF",
+   "0.893",
+   "0.758",
+   "0.705",
+   "0.687"
+  ],
+  [
+   "S1 all factors",
+   "Spatial CV",
+   "Wayanad",
+   "XGB",
+   "0.884",
+   "0.747",
+   "0.695",
+   "0.670"
+  ],
+  [
+   "S1 all factors",
+   "Transfer",
+   "Kodagu",
+   "RF",
+   "0.835",
+   "0.629",
+   "0.610",
+   "0.686"
+  ],
+  [
+   "S1 all factors",
+   "Transfer",
+   "Kodagu",
+   "XGB",
+   "0.785",
+   "0.573",
+   "0.558",
+   "0.631"
+  ],
+  [
+   "S1 all factors",
+   "Transfer",
+   "Wayanad",
+   "RF",
+   "0.806",
+   "0.596",
+   "0.567",
+   "0.594"
+  ],
+  [
+   "S1 all factors",
+   "Transfer",
+   "Wayanad",
+   "XGB",
+   "0.748",
+   "0.542",
+   "0.502",
+   "0.513"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Spatial CV",
+   "Kodagu",
+   "RF",
+   "0.817",
+   "0.635",
+   "0.652",
+   "0.638"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Spatial CV",
+   "Kodagu",
+   "XGB",
+   "0.811",
+   "0.633",
+   "0.649",
+   "0.636"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Spatial CV",
+   "Wayanad",
+   "RF",
+   "0.839",
+   "0.645",
+   "0.573",
+   "0.579"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Spatial CV",
+   "Wayanad",
+   "XGB",
+   "0.819",
+   "0.610",
+   "0.548",
+   "0.563"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Transfer",
+   "Kodagu",
+   "RF",
+   "0.841",
+   "0.652",
+   "0.609",
+   "0.637"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Transfer",
+   "Kodagu",
+   "XGB",
+   "0.822",
+   "0.625",
+   "0.589",
+   "0.620"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Transfer",
+   "Wayanad",
+   "RF",
+   "0.828",
+   "0.663",
+   "0.642",
+   "0.629"
+  ],
+  [
+   "T2 terrain, hydrology and elevation",
+   "Transfer",
+   "Wayanad",
+   "XGB",
+   "0.816",
+   "0.646",
+   "0.629",
+   "0.618"
+  ]
+ ],
+ "table11": [
+  [
+   "Property",
+   "Wayanad",
+   "Kodagu"
+  ],
+  [
+   "Mapped landslides in district",
+   "325",
+   "267"
+  ],
+  [
+   "District area (km²)",
+   "2,026",
+   "4,128"
+  ],
+  [
+   "Mapped density (per 100 km²)",
+   "16.0",
+   "6.5"
+  ],
+  [
+   "Median nearest-neighbour distance (m)",
+   "333",
+   "168"
+  ],
+  [
+   "Clark–Evans aggregation index",
+   "0.41",
+   "0.18"
+  ],
+  [
+   "Median slope at landslide cells (°)",
+   "21.9",
+   "21.4"
+  ],
+  [
+   "Median TRI at landslide cells (m)",
+   "30.7",
+   "29.8"
+  ],
+  [
+   "Median elevation at landslide cells (m)",
+   "907",
+   "1,035"
+  ],
+  [
+   "Median August 2018 rainfall at landslide cells (mm)",
+   "449",
+   "896"
+  ]
+ ],
+ "table12": [
+  [
+   "Thinning",
+   "Landslide cells kept",
+   "Model",
+   "Within-district CV",
+   "Transfer AUC (→ Kodagu)"
+  ],
+  [
+   "Whole 5 km blocks",
+   "25%",
+   "RF",
+   "0.856 ± 0.048",
+   "0.801 ± 0.037"
+  ],
+  [
+   "Whole 5 km blocks",
+   "25%",
+   "XGB",
+   "0.837 ± 0.062",
+   "0.742 ± 0.059"
+  ],
+  [
+   "Whole 5 km blocks",
+   "41%",
+   "RF",
+   "0.862 ± 0.037",
+   "0.799 ± 0.019"
+  ],
+  [
+   "Whole 5 km blocks",
+   "41%",
+   "XGB",
+   "0.848 ± 0.045",
+   "0.734 ± 0.037"
+  ],
+  [
+   "Whole 5 km blocks",
+   "50%",
+   "RF",
+   "0.870 ± 0.028",
+   "0.810 ± 0.014"
+  ],
+  [
+   "Whole 5 km blocks",
+   "50%",
+   "XGB",
+   "0.860 ± 0.028",
+   "0.736 ± 0.045"
+  ],
+  [
+   "Whole 5 km blocks",
+   "75%",
+   "RF",
+   "0.884 ± 0.019",
+   "0.809 ± 0.020"
+  ],
+  [
+   "Whole 5 km blocks",
+   "75%",
+   "XGB",
+   "0.868 ± 0.021",
+   "0.746 ± 0.046"
+  ],
+  [
+   "Random",
+   "25%",
+   "RF",
+   "0.876 ± 0.024",
+   "0.822 ± 0.013"
+  ],
+  [
+   "Random",
+   "25%",
+   "XGB",
+   "0.854 ± 0.031",
+   "0.778 ± 0.047"
+  ],
+  [
+   "Random",
+   "41%",
+   "RF",
+   "0.879 ± 0.013",
+   "0.816 ± 0.014"
+  ],
+  [
+   "Random",
+   "41%",
+   "XGB",
+   "0.864 ± 0.017",
+   "0.785 ± 0.033"
+  ],
+  [
+   "Random",
+   "50%",
+   "RF",
+   "0.883 ± 0.016",
+   "0.809 ± 0.016"
+  ],
+  [
+   "Random",
+   "50%",
+   "XGB",
+   "0.872 ± 0.019",
+   "0.766 ± 0.029"
+  ],
+  [
+   "Random",
+   "75%",
+   "RF",
+   "0.889 ± 0.011",
+   "0.810 ± 0.013"
+  ],
+  [
+   "Random",
+   "75%",
+   "XGB",
+   "0.881 ± 0.013",
+   "0.763 ± 0.031"
+  ],
+  [
+   "Random",
+   "100%",
+   "RF",
+   "0.894 ± 0.012",
+   "0.806 ± 0.021"
+  ],
+  [
+   "Random",
+   "100%",
+   "XGB",
+   "0.884 ± 0.015",
+   "0.753 ± 0.037"
+  ]
+ ],
+ "tableS2": [
+  [
+   "Family",
+   "Comparison",
+   "Mean difference",
+   "Samplings favouring",
+   "p (raw)",
+   "p (BH-adjusted)"
+  ],
+  [
+   "Validation design",
+   "Wayanad: spatial CV - random CV | LR",
+   "-0.020",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Kodagu: spatial CV - random CV | LR",
+   "-0.026",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Wayanad → Kodagu: transfer - target spatial CV | LR",
+   "-0.200",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S2 regional standardisation - S1 | LR",
+   "+0.015",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S3 shifted factors dropped - S1 | LR",
+   "+0.012",
+   "8/10",
+   "0.0273",
+   "0.0337"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S4 rainfall removed - S1 | LR",
+   "+0.010",
+   "8/10",
+   "0.1055",
+   "0.1227"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T1 terrain only - S1 (transfer) | LR",
+   "+0.080",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T2 terrain + elevation - S1 (transfer) | LR",
+   "+0.085",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T3 unshifted only - S1 (transfer) | LR",
+   "+0.056",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Kodagu → Wayanad: transfer - target spatial CV | LR",
+   "-0.119",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S2 regional standardisation - S1 | LR",
+   "-0.020",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S3 shifted factors dropped - S1 | LR",
+   "+0.014",
+   "8/10",
+   "0.0137",
+   "0.0186"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S4 rainfall removed - S1 | LR",
+   "+0.036",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T1 terrain only - S1 (transfer) | LR",
+   "+0.095",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T2 terrain + elevation - S1 (transfer) | LR",
+   "+0.098",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T3 unshifted only - S1 (transfer) | LR",
+   "+0.026",
+   "9/10",
+   "0.0059",
+   "0.0089"
+  ],
+  [
+   "Validation design",
+   "Wayanad: spatial CV - random CV | RF",
+   "-0.017",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Kodagu: spatial CV - random CV | RF",
+   "-0.023",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Wayanad → Kodagu: transfer - target spatial CV | RF",
+   "-0.129",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S2 regional standardisation - S1 | RF",
+   "+0.041",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S3 shifted factors dropped - S1 | RF",
+   "+0.019",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S4 rainfall removed - S1 | RF",
+   "+0.022",
+   "8/10",
+   "0.0098",
+   "0.0142"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T1 terrain only - S1 (transfer) | RF",
+   "-0.012",
+   "4/10",
+   "0.1602",
+   "0.1798"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T2 terrain + elevation - S1 (transfer) | RF",
+   "+0.022",
+   "8/10",
+   "0.0195",
+   "0.0250"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T3 unshifted only - S1 (transfer) | RF",
+   "+0.001",
+   "5/10",
+   "1.0000",
+   "1.0000"
+  ],
+  [
+   "Validation design",
+   "Kodagu → Wayanad: transfer - target spatial CV | RF",
+   "-0.058",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S2 regional standardisation - S1 | RF",
+   "-0.005",
+   "3/10",
+   "0.3223",
+   "0.3496"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S3 shifted factors dropped - S1 | RF",
+   "-0.001",
+   "4/10",
+   "0.6953",
+   "0.7295"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S4 rainfall removed - S1 | RF",
+   "-0.017",
+   "1/10",
+   "0.0078",
+   "0.0116"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T1 terrain only - S1 (transfer) | RF",
+   "-0.034",
+   "1/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T2 terrain + elevation - S1 (transfer) | RF",
+   "+0.006",
+   "6/10",
+   "0.7695",
+   "0.7944"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T3 unshifted only - S1 (transfer) | RF",
+   "-0.046",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Wayanad: spatial CV - random CV | XGB",
+   "-0.023",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Kodagu: spatial CV - random CV | XGB",
+   "-0.029",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Wayanad → Kodagu: transfer - target spatial CV | XGB",
+   "-0.181",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S2 regional standardisation - S1 | XGB",
+   "+0.083",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S3 shifted factors dropped - S1 | XGB",
+   "+0.031",
+   "9/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S4 rainfall removed - S1 | XGB",
+   "+0.071",
+   "9/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T1 terrain only - S1 (transfer) | XGB",
+   "+0.026",
+   "8/10",
+   "0.1055",
+   "0.1227"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T2 terrain + elevation - S1 (transfer) | XGB",
+   "+0.068",
+   "9/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T3 unshifted only - S1 (transfer) | XGB",
+   "+0.046",
+   "9/10",
+   "0.0195",
+   "0.0250"
+  ],
+  [
+   "Validation design",
+   "Kodagu → Wayanad: transfer - target spatial CV | XGB",
+   "-0.101",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S2 regional standardisation - S1 | XGB",
+   "-0.022",
+   "1/10",
+   "0.0059",
+   "0.0089"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S3 shifted factors dropped - S1 | XGB",
+   "+0.003",
+   "5/10",
+   "0.6250",
+   "0.6667"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S4 rainfall removed - S1 | XGB",
+   "+0.020",
+   "6/10",
+   "0.1055",
+   "0.1227"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T1 terrain only - S1 (transfer) | XGB",
+   "-0.013",
+   "3/10",
+   "0.3223",
+   "0.3496"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T2 terrain + elevation - S1 (transfer) | XGB",
+   "+0.037",
+   "8/10",
+   "0.0195",
+   "0.0250"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T3 unshifted only - S1 (transfer) | XGB",
+   "-0.028",
+   "2/10",
+   "0.0273",
+   "0.0337"
+  ],
+  [
+   "Validation design",
+   "Wayanad: spatial CV - random CV | LGBM",
+   "-0.021",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Kodagu: spatial CV - random CV | LGBM",
+   "-0.031",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Validation design",
+   "Wayanad → Kodagu: transfer - target spatial CV | LGBM",
+   "-0.216",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S2 regional standardisation - S1 | LGBM",
+   "+0.115",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S3 shifted factors dropped - S1 | LGBM",
+   "+0.037",
+   "9/10",
+   "0.0059",
+   "0.0089"
+  ],
+  [
+   "Adaptation strategy",
+   "Wayanad → Kodagu: S4 rainfall removed - S1 | LGBM",
+   "+0.098",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T1 terrain only - S1 (transfer) | LGBM",
+   "+0.059",
+   "9/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T2 terrain + elevation - S1 (transfer) | LGBM",
+   "+0.101",
+   "10/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Factor subset",
+   "Wayanad → Kodagu: T3 unshifted only - S1 (transfer) | LGBM",
+   "+0.077",
+   "9/10",
+   "0.0039",
+   "0.0066"
+  ],
+  [
+   "Validation design",
+   "Kodagu → Wayanad: transfer - target spatial CV | LGBM",
+   "-0.093",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S2 regional standardisation - S1 | LGBM",
+   "-0.010",
+   "2/10",
+   "0.1602",
+   "0.1798"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S3 shifted factors dropped - S1 | LGBM",
+   "-0.011",
+   "1/10",
+   "0.0137",
+   "0.0186"
+  ],
+  [
+   "Adaptation strategy",
+   "Kodagu → Wayanad: S4 rainfall removed - S1 | LGBM",
+   "-0.003",
+   "3/10",
+   "0.8457",
+   "0.8591"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T1 terrain only - S1 (transfer) | LGBM",
+   "-0.026",
+   "2/10",
+   "0.0137",
+   "0.0186"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T2 terrain + elevation - S1 (transfer) | LGBM",
+   "+0.025",
+   "9/10",
+   "0.0059",
+   "0.0089"
+  ],
+  [
+   "Factor subset",
+   "Kodagu → Wayanad: T3 unshifted only - S1 (transfer) | LGBM",
+   "-0.044",
+   "0/10",
+   "0.0020",
+   "0.0039"
+  ]
+ ],
+ "tableS3": [
+  [
+   "Factor",
+   "Pearson r (95% CI)",
+   "Spearman ρ",
+   "Lin's CCC",
+   "Pearson r, interventional SHAP",
+   "Pearson r, Kodagu samples only"
+  ],
+  [
+   "tri",
+   "+0.87 (+0.82, +0.91)",
+   "+0.83",
+   "+0.83",
+   "+0.83",
+   "+0.87"
+  ],
+  [
+   "slope",
+   "+0.59 (+0.38, +0.75)",
+   "+0.54",
+   "+0.48",
+   "+0.57",
+   "+0.60"
+  ],
+  [
+   "lithology",
+   "+0.46 (+0.16, +0.69)",
+   "+0.08",
+   "+0.18",
+   "+0.41",
+   "+0.45"
+  ],
+  [
+   "twi",
+   "+0.45 (+0.37, +0.54)",
+   "+0.39",
+   "+0.41",
+   "+0.45",
+   "+0.46"
+  ],
+  [
+   "dist_streams",
+   "+0.36 (+0.20, +0.50)",
+   "+0.36",
+   "+0.33",
+   "+0.37",
+   "+0.29"
+  ],
+  [
+   "soil_bdod",
+   "+0.31 (+0.19, +0.44)",
+   "+0.21",
+   "+0.27",
+   "+0.33",
+   "+0.39"
+  ],
+  [
+   "plan_curvature",
+   "+0.20 (-0.05, +0.42)",
+   "+0.25",
+   "+0.18",
+   "+0.25",
+   "+0.14"
+  ],
+  [
+   "soil_clay",
+   "+0.16 (+0.00, +0.32)",
+   "+0.16",
+   "+0.14",
+   "+0.16",
+   "+0.10"
+  ],
+  [
+   "spi",
+   "+0.16 (-0.06, +0.38)",
+   "+0.12",
+   "+0.14",
+   "+0.18",
+   "+0.15"
+  ],
+  [
+   "soil_sand",
+   "+0.10 (-0.02, +0.21)",
+   "+0.06",
+   "+0.09",
+   "+0.10",
+   "+0.07"
+  ],
+  [
+   "northness",
+   "+0.07 (-0.23, +0.38)",
+   "+0.08",
+   "+0.08",
+   "+0.11",
+   "+0.12"
+  ],
+  [
+   "eastness",
+   "+0.07 (-0.15, +0.29)",
+   "+0.09",
+   "+0.05",
+   "+0.08",
+   "+0.08"
+  ],
+  [
+   "elevation",
+   "+0.04 (-0.12, +0.20)",
+   "+0.05",
+   "+0.03",
+   "+0.07",
+   "-0.05"
+  ],
+  [
+   "profile_curvature",
+   "+0.03 (-0.08, +0.16)",
+   "+0.03",
+   "+0.03",
+   "+0.04",
+   "+0.02"
+  ],
+  [
+   "rain_annual_mean",
+   "-0.01 (-0.05, +0.02)",
+   "-0.06",
+   "-0.01",
+   "+0.06",
+   "-0.05"
+  ],
+  [
+   "rain_aug2018",
+   "-0.18 (-0.26, -0.09)",
+   "-0.37",
+   "-0.12",
+   "-0.13",
+   "-0.20"
+  ],
+  [
+   "landcover",
+   "-0.82 (-0.92, -0.70)",
+   "-0.27",
+   "-0.46",
+   "-0.77",
+   "-0.85"
+  ]
+ ],
+ "tableS5": [
+  [
+   "Measure",
+   "Wayanad",
+   "Kodagu"
+  ],
+  [
+   "Mapped road density (km km⁻²)",
+   "2.89",
+   "0.74"
+  ],
+  [
+   "Median distance to a mapped road, landslide cells (m)",
+   "335",
+   "170"
+  ],
+  [
+   "Median distance to a mapped road, absence cells (m)",
+   "120",
+   "516"
+  ],
+  [
+   "Cells within 250 m of a mapped road, landslide cells (%)",
+   "45.4",
+   "59.0"
+  ],
+  [
+   "Cells within 250 m of a mapped road, absence cells (%)",
+   "69.8",
+   "30.7"
+  ],
+  [
+   "SHAP importance rank of distance to roads",
+   "7",
+   "2"
+  ],
+  [
+   "SHAP effect agreement between districts (r)",
+   "+0.57 ± 0.32",
+   ""
+  ]
+ ],
+ "table13": [
+  [
+   "Factor set",
+   "Model",
+   "Within-district CV (Wayanad)",
+   "Transfer → Kodagu",
+   "Within-district CV (Kodagu)",
+   "Transfer → Wayanad"
+  ],
+  [
+   "All factors",
+   "RF",
+   "0.893",
+   "0.806",
+   "0.933",
+   "0.835"
+  ],
+  [
+   "All factors",
+   "XGB",
+   "0.884",
+   "0.748",
+   "0.929",
+   "0.785"
+  ],
+  [
+   "Rainfall removed",
+   "RF",
+   "0.868",
+   "0.829",
+   "0.898",
+   "0.818"
+  ],
+  [
+   "Rainfall removed",
+   "XGB",
+   "0.852",
+   "0.817",
+   "0.890",
+   "0.804"
+  ],
+  [
+   "Rainfall replaced by smooth spatial trend",
+   "RF",
+   "0.909",
+   "0.822",
+   "0.969",
+   "0.694"
+  ],
+  [
+   "Rainfall replaced by smooth spatial trend",
+   "XGB",
+   "0.897",
+   "0.821",
+   "0.963",
+   "0.638"
+  ],
+  [
+   "Rainfall only",
+   "RF",
+   "0.852",
+   "0.568",
+   "0.901",
+   "0.600"
+  ],
+  [
+   "Rainfall only",
+   "XGB",
+   "0.733",
+   "0.589",
+   "0.851",
+   "0.618"
+  ],
+  [
+   "Spatial trend only",
+   "RF",
+   "0.868",
+   "0.302",
+   "0.966",
+   "0.527"
+  ],
+  [
+   "Spatial trend only",
+   "XGB",
+   "0.863",
+   "0.378",
+   "0.957",
+   "0.563"
+  ],
+  [
+   "Slope and TRI at 30 m",
+   "RF",
+   "0.801",
+   "0.793",
+   "0.763",
+   "0.800"
+  ],
+  [
+   "Slope and TRI at 30 m",
+   "XGB",
+   "0.802",
+   "0.793",
+   "0.760",
+   "0.800"
+  ],
+  [
+   "Slope and TRI at the 0.05° rainfall grid",
+   "RF",
+   "0.864",
+   "0.809",
+   "0.949",
+   "0.728"
+  ],
+  [
+   "Slope and TRI at the 0.05° rainfall grid",
+   "XGB",
+   "0.862",
+   "0.808",
+   "0.951",
+   "0.791"
+  ]
+ ],
+ "tableS4": [
+  [
+   "Trained in",
+   "Model",
+   "Spatial CV, default",
+   "Spatial CV, tuned",
+   "Transfer, default",
+   "Transfer, tuned"
+  ],
+  [
+   "Kodagu",
+   "LGBM",
+   "0.925",
+   "0.928",
+   "0.820",
+   "0.826"
+  ],
+  [
+   "Kodagu",
+   "LR",
+   "0.919",
+   "0.931",
+   "0.723",
+   "0.632"
+  ],
+  [
+   "Kodagu",
+   "RF",
+   "0.923",
+   "0.925",
+   "0.851",
+   "0.852"
+  ],
+  [
+   "Kodagu",
+   "XGB",
+   "0.922",
+   "0.928",
+   "0.825",
+   "0.835"
+  ],
+  [
+   "Wayanad",
+   "LGBM",
+   "0.885",
+   "0.892",
+   "0.716",
+   "0.775"
+  ],
+  [
+   "Wayanad",
+   "LR",
+   "0.852",
+   "0.856",
+   "0.724",
+   "0.786"
+  ],
+  [
+   "Wayanad",
+   "RF",
+   "0.889",
+   "0.892",
+   "0.817",
+   "0.813"
+  ],
+  [
+   "Wayanad",
+   "XGB",
+   "0.878",
+   "0.892",
+   "0.753",
+   "0.783"
+  ]
+ ]
+}

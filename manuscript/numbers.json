@@ -1,0 +1,1592 @@
+{
+ "auc_wayanad_random_10fold_wayanad_S1_LR": 0.867,
+ "auc_wayanad_random_10fold_wayanad_S1_LR_sd": 0.014,
+ "auc_wayanad_random_10fold_wayanad_S1_RF": 0.91,
+ "auc_wayanad_random_10fold_wayanad_S1_RF_sd": 0.011,
+ "auc_wayanad_random_10fold_wayanad_S1_XGB": 0.907,
+ "auc_wayanad_random_10fold_wayanad_S1_XGB_sd": 0.011,
+ "auc_wayanad_random_10fold_wayanad_S1_LGBM": 0.909,
+ "auc_wayanad_random_10fold_wayanad_S1_LGBM_sd": 0.012,
+ "auc_wayanad_spatial_block5km_wayanad_S1_LR": 0.847,
+ "auc_wayanad_spatial_block5km_wayanad_S1_LR_sd": 0.016,
+ "auc_wayanad_spatial_block5km_wayanad_S1_RF": 0.893,
+ "auc_wayanad_spatial_block5km_wayanad_S1_RF_sd": 0.013,
+ "auc_wayanad_spatial_block5km_wayanad_S1_XGB": 0.884,
+ "auc_wayanad_spatial_block5km_wayanad_S1_XGB_sd": 0.014,
+ "auc_wayanad_spatial_block5km_wayanad_S1_LGBM": 0.888,
+ "auc_wayanad_spatial_block5km_wayanad_S1_LGBM_sd": 0.014,
+ "auc_wayanad_transfer_kodagu_S1_LR": 0.712,
+ "auc_wayanad_transfer_kodagu_S1_LR_sd": 0.027,
+ "auc_wayanad_transfer_kodagu_S1_RF": 0.806,
+ "auc_wayanad_transfer_kodagu_S1_RF_sd": 0.019,
+ "auc_wayanad_transfer_kodagu_S1_XGB": 0.746,
+ "auc_wayanad_transfer_kodagu_S1_XGB_sd": 0.042,
+ "auc_wayanad_transfer_kodagu_S1_LGBM": 0.714,
+ "auc_wayanad_transfer_kodagu_S1_LGBM_sd": 0.044,
+ "auc_kodagu_random_10fold_kodagu_S1_LR": 0.937,
+ "auc_kodagu_random_10fold_kodagu_S1_LR_sd": 0.01,
+ "auc_kodagu_random_10fold_kodagu_S1_RF": 0.959,
+ "auc_kodagu_random_10fold_kodagu_S1_RF_sd": 0.005,
+ "auc_kodagu_random_10fold_kodagu_S1_XGB": 0.956,
+ "auc_kodagu_random_10fold_kodagu_S1_XGB_sd": 0.006,
+ "auc_kodagu_random_10fold_kodagu_S1_LGBM": 0.961,
+ "auc_kodagu_random_10fold_kodagu_S1_LGBM_sd": 0.006,
+ "auc_kodagu_spatial_block5km_kodagu_S1_LR": 0.912,
+ "auc_kodagu_spatial_block5km_kodagu_S1_LR_sd": 0.014,
+ "auc_kodagu_spatial_block5km_kodagu_S1_RF": 0.936,
+ "auc_kodagu_spatial_block5km_kodagu_S1_RF_sd": 0.011,
+ "auc_kodagu_spatial_block5km_kodagu_S1_XGB": 0.927,
+ "auc_kodagu_spatial_block5km_kodagu_S1_XGB_sd": 0.012,
+ "auc_kodagu_spatial_block5km_kodagu_S1_LGBM": 0.93,
+ "auc_kodagu_spatial_block5km_kodagu_S1_LGBM_sd": 0.016,
+ "auc_kodagu_transfer_wayanad_S1_LR": 0.728,
+ "auc_kodagu_transfer_wayanad_S1_LR_sd": 0.019,
+ "auc_kodagu_transfer_wayanad_S1_RF": 0.835,
+ "auc_kodagu_transfer_wayanad_S1_RF_sd": 0.02,
+ "auc_kodagu_transfer_wayanad_S1_XGB": 0.783,
+ "auc_kodagu_transfer_wayanad_S1_XGB_sd": 0.038,
+ "auc_kodagu_transfer_wayanad_S1_LGBM": 0.795,
+ "auc_kodagu_transfer_wayanad_S1_LGBM_sd": 0.032,
+ "shift_rain_aug2018_auc": 0.81,
+ "shift_rain_aug2018_smd": 1.38,
+ "shift_elevation_auc": 0.68,
+ "shift_elevation_smd": 0.18,
+ "shift_rain_annual_mean_auc": 0.67,
+ "shift_rain_annual_mean_smd": 0.74,
+ "shift_soil_sand_auc": 0.59,
+ "shift_soil_sand_smd": -0.15,
+ "shift_soil_clay_auc": 0.53,
+ "shift_soil_clay_smd": 0.13,
+ "shift_dist_streams_auc": 0.52,
+ "shift_dist_streams_smd": 0.09,
+ "shift_eastness_auc": 0.52,
+ "shift_eastness_smd": -0.06,
+ "shift_plan_curvature_auc": 0.51,
+ "shift_plan_curvature_smd": 0.04,
+ "shift_soil_bdod_auc": 0.51,
+ "shift_soil_bdod_smd": -0.05,
+ "shift_profile_curvature_auc": 0.51,
+ "shift_profile_curvature_smd": 0.04,
+ "shift_twi_auc": 0.51,
+ "shift_twi_smd": 0.01,
+ "shift_spi_auc": 0.51,
+ "shift_spi_smd": 0.04,
+ "shift_slope_auc": 0.51,
+ "shift_slope_smd": 0.08,
+ "shift_tri_auc": 0.5,
+ "shift_tri_smd": 0.08,
+ "shift_northness_auc": 0.5,
+ "shift_northness_smd": -0.0,
+ "adv_auc_multivariate": 1.0,
+ "shift_dist_roads": {
+  "mean_w": 342,
+  "mean_k": 977,
+  "smd": 0.73,
+  "auc": 0.75
+ },
+ "tr_wayanad_S1_all_LR": 0.712,
+ "tr_wayanad_S1_all_LR_sd": 0.027,
+ "tr_wayanad_S1_all_RF": 0.806,
+ "tr_wayanad_S1_all_RF_sd": 0.019,
+ "tr_wayanad_S1_all_XGB": 0.746,
+ "tr_wayanad_S1_all_XGB_sd": 0.042,
+ "tr_wayanad_S1_all_LGBM": 0.714,
+ "tr_wayanad_S1_all_LGBM_sd": 0.044,
+ "tr_wayanad_S2_regional_z_LR": 0.727,
+ "tr_wayanad_S2_regional_z_LR_sd": 0.023,
+ "p_wayanad_S2_regional_z_LR": 0.002,
+ "d_wayanad_S2_regional_z_LR": 0.015,
+ "tr_wayanad_S2_regional_z_RF": 0.847,
+ "tr_wayanad_S2_regional_z_RF_sd": 0.014,
+ "p_wayanad_S2_regional_z_RF": 0.002,
+ "d_wayanad_S2_regional_z_RF": 0.041,
+ "tr_wayanad_S2_regional_z_XGB": 0.829,
+ "tr_wayanad_S2_regional_z_XGB_sd": 0.033,
+ "p_wayanad_S2_regional_z_XGB": 0.002,
+ "d_wayanad_S2_regional_z_XGB": 0.082,
+ "tr_wayanad_S2_regional_z_LGBM": 0.828,
+ "tr_wayanad_S2_regional_z_LGBM_sd": 0.03,
+ "p_wayanad_S2_regional_z_LGBM": 0.002,
+ "d_wayanad_S2_regional_z_LGBM": 0.115,
+ "tr_wayanad_S3_drop_shifted_LR": 0.724,
+ "tr_wayanad_S3_drop_shifted_LR_sd": 0.022,
+ "p_wayanad_S3_drop_shifted_LR": 0.0273,
+ "d_wayanad_S3_drop_shifted_LR": 0.012,
+ "tr_wayanad_S3_drop_shifted_RF": 0.825,
+ "tr_wayanad_S3_drop_shifted_RF_sd": 0.012,
+ "p_wayanad_S3_drop_shifted_RF": 0.002,
+ "d_wayanad_S3_drop_shifted_RF": 0.019,
+ "tr_wayanad_S3_drop_shifted_XGB": 0.777,
+ "tr_wayanad_S3_drop_shifted_XGB_sd": 0.026,
+ "p_wayanad_S3_drop_shifted_XGB": 0.0039,
+ "d_wayanad_S3_drop_shifted_XGB": 0.031,
+ "tr_wayanad_S3_drop_shifted_LGBM": 0.751,
+ "tr_wayanad_S3_drop_shifted_LGBM_sd": 0.026,
+ "p_wayanad_S3_drop_shifted_LGBM": 0.0059,
+ "d_wayanad_S3_drop_shifted_LGBM": 0.037,
+ "tr_wayanad_S4_no_rainfall_LR": 0.722,
+ "tr_wayanad_S4_no_rainfall_LR_sd": 0.022,
+ "p_wayanad_S4_no_rainfall_LR": 0.1055,
+ "d_wayanad_S4_no_rainfall_LR": 0.01,
+ "tr_wayanad_S4_no_rainfall_RF": 0.829,
+ "tr_wayanad_S4_no_rainfall_RF_sd": 0.011,
+ "p_wayanad_S4_no_rainfall_RF": 0.0098,
+ "d_wayanad_S4_no_rainfall_RF": 0.022,
+ "tr_wayanad_S4_no_rainfall_XGB": 0.818,
+ "tr_wayanad_S4_no_rainfall_XGB_sd": 0.022,
+ "p_wayanad_S4_no_rainfall_XGB": 0.0039,
+ "d_wayanad_S4_no_rainfall_XGB": 0.072,
+ "tr_wayanad_S4_no_rainfall_LGBM": 0.811,
+ "tr_wayanad_S4_no_rainfall_LGBM_sd": 0.024,
+ "p_wayanad_S4_no_rainfall_LGBM": 0.002,
+ "d_wayanad_S4_no_rainfall_LGBM": 0.098,
+ "tr_kodagu_S1_all_LR": 0.728,
+ "tr_kodagu_S1_all_LR_sd": 0.019,
+ "tr_kodagu_S1_all_RF": 0.835,
+ "tr_kodagu_S1_all_RF_sd": 0.02,
+ "tr_kodagu_S1_all_XGB": 0.783,
+ "tr_kodagu_S1_all_XGB_sd": 0.038,
+ "tr_kodagu_S1_all_LGBM": 0.795,
+ "tr_kodagu_S1_all_LGBM_sd": 0.032,
+ "tr_kodagu_S2_regional_z_LR": 0.708,
+ "tr_kodagu_S2_regional_z_LR_sd": 0.025,
+ "p_kodagu_S2_regional_z_LR": 0.002,
+ "d_kodagu_S2_regional_z_LR": -0.02,
+ "tr_kodagu_S2_regional_z_RF": 0.83,
+ "tr_kodagu_S2_regional_z_RF_sd": 0.023,
+ "p_kodagu_S2_regional_z_RF": 0.3223,
+ "d_kodagu_S2_regional_z_RF": -0.006,
+ "tr_kodagu_S2_regional_z_XGB": 0.761,
+ "tr_kodagu_S2_regional_z_XGB_sd": 0.027,
+ "p_kodagu_S2_regional_z_XGB": 0.0059,
+ "d_kodagu_S2_regional_z_XGB": -0.022,
+ "tr_kodagu_S2_regional_z_LGBM": 0.785,
+ "tr_kodagu_S2_regional_z_LGBM_sd": 0.031,
+ "p_kodagu_S2_regional_z_LGBM": 0.1602,
+ "d_kodagu_S2_regional_z_LGBM": -0.01,
+ "tr_kodagu_S3_drop_shifted_LR": 0.743,
+ "tr_kodagu_S3_drop_shifted_LR_sd": 0.017,
+ "p_kodagu_S3_drop_shifted_LR": 0.0137,
+ "d_kodagu_S3_drop_shifted_LR": 0.014,
+ "tr_kodagu_S3_drop_shifted_RF": 0.834,
+ "tr_kodagu_S3_drop_shifted_RF_sd": 0.014,
+ "p_kodagu_S3_drop_shifted_RF": 0.6953,
+ "d_kodagu_S3_drop_shifted_RF": -0.001,
+ "tr_kodagu_S3_drop_shifted_XGB": 0.786,
+ "tr_kodagu_S3_drop_shifted_XGB_sd": 0.029,
+ "p_kodagu_S3_drop_shifted_XGB": 0.625,
+ "d_kodagu_S3_drop_shifted_XGB": 0.003,
+ "tr_kodagu_S3_drop_shifted_LGBM": 0.783,
+ "tr_kodagu_S3_drop_shifted_LGBM_sd": 0.028,
+ "p_kodagu_S3_drop_shifted_LGBM": 0.0137,
+ "d_kodagu_S3_drop_shifted_LGBM": -0.011,
+ "tr_kodagu_S4_no_rainfall_LR": 0.764,
+ "tr_kodagu_S4_no_rainfall_LR_sd": 0.013,
+ "p_kodagu_S4_no_rainfall_LR": 0.002,
+ "d_kodagu_S4_no_rainfall_LR": 0.036,
+ "tr_kodagu_S4_no_rainfall_RF": 0.818,
+ "tr_kodagu_S4_no_rainfall_RF_sd": 0.015,
+ "p_kodagu_S4_no_rainfall_RF": 0.0078,
+ "d_kodagu_S4_no_rainfall_RF": -0.017,
+ "tr_kodagu_S4_no_rainfall_XGB": 0.803,
+ "tr_kodagu_S4_no_rainfall_XGB_sd": 0.016,
+ "p_kodagu_S4_no_rainfall_XGB": 0.1055,
+ "d_kodagu_S4_no_rainfall_XGB": 0.02,
+ "tr_kodagu_S4_no_rainfall_LGBM": 0.792,
+ "tr_kodagu_S4_no_rainfall_LGBM_sd": 0.014,
+ "p_kodagu_S4_no_rainfall_LGBM": 0.8457,
+ "d_kodagu_S4_no_rainfall_LGBM": -0.003,
+ "wilcoxon::wayanad: spatial CV - random CV | LR": {
+  "diff": -0.02,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad: spatial CV S4 - S1 | LR": {
+  "diff": 0.004,
+  "p": 0.0137,
+  "wins": 9
+ },
+ "wilcoxon::kodagu: spatial CV - random CV | LR": {
+  "diff": -0.026,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV S4 - S1 | LR": {
+  "diff": -0.044,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: transfer S1 - target spatial CV | LR": {
+  "diff": -0.2,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: S2_regional_z - S1 | LR": {
+  "diff": 0.015,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad->kodagu: S3_drop_shifted - S1 | LR": {
+  "diff": 0.012,
+  "p": 0.0273,
+  "wins": 8
+ },
+ "wilcoxon::wayanad->kodagu: S4_no_rainfall - S1 | LR": {
+  "diff": 0.01,
+  "p": 0.1055,
+  "wins": 8
+ },
+ "wilcoxon::kodagu->wayanad: transfer S1 - target spatial CV | LR": {
+  "diff": -0.119,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu->wayanad: S2_regional_z - S1 | LR": {
+  "diff": -0.02,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu->wayanad: S3_drop_shifted - S1 | LR": {
+  "diff": 0.014,
+  "p": 0.0137,
+  "wins": 8
+ },
+ "wilcoxon::kodagu->wayanad: S4_no_rainfall - S1 | LR": {
+  "diff": 0.036,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad: spatial CV - random CV | RF": {
+  "diff": -0.017,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad: spatial CV S4 - S1 | RF": {
+  "diff": -0.026,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV - random CV | RF": {
+  "diff": -0.023,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV S4 - S1 | RF": {
+  "diff": -0.034,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: transfer S1 - target spatial CV | RF": {
+  "diff": -0.129,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: S2_regional_z - S1 | RF": {
+  "diff": 0.041,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad->kodagu: S3_drop_shifted - S1 | RF": {
+  "diff": 0.019,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad->kodagu: S4_no_rainfall - S1 | RF": {
+  "diff": 0.022,
+  "p": 0.0098,
+  "wins": 8
+ },
+ "wilcoxon::kodagu->wayanad: transfer S1 - target spatial CV | RF": {
+  "diff": -0.058,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu->wayanad: S2_regional_z - S1 | RF": {
+  "diff": -0.006,
+  "p": 0.3223,
+  "wins": 3
+ },
+ "wilcoxon::kodagu->wayanad: S3_drop_shifted - S1 | RF": {
+  "diff": -0.001,
+  "p": 0.6953,
+  "wins": 4
+ },
+ "wilcoxon::kodagu->wayanad: S4_no_rainfall - S1 | RF": {
+  "diff": -0.017,
+  "p": 0.0078,
+  "wins": 1
+ },
+ "wilcoxon::wayanad: spatial CV - random CV | XGB": {
+  "diff": -0.023,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad: spatial CV S4 - S1 | XGB": {
+  "diff": -0.032,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV - random CV | XGB": {
+  "diff": -0.029,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV S4 - S1 | XGB": {
+  "diff": -0.036,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: transfer S1 - target spatial CV | XGB": {
+  "diff": -0.181,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: S2_regional_z - S1 | XGB": {
+  "diff": 0.082,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad->kodagu: S3_drop_shifted - S1 | XGB": {
+  "diff": 0.031,
+  "p": 0.0039,
+  "wins": 9
+ },
+ "wilcoxon::wayanad->kodagu: S4_no_rainfall - S1 | XGB": {
+  "diff": 0.072,
+  "p": 0.0039,
+  "wins": 9
+ },
+ "wilcoxon::kodagu->wayanad: transfer S1 - target spatial CV | XGB": {
+  "diff": -0.101,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu->wayanad: S2_regional_z - S1 | XGB": {
+  "diff": -0.022,
+  "p": 0.0059,
+  "wins": 1
+ },
+ "wilcoxon::kodagu->wayanad: S3_drop_shifted - S1 | XGB": {
+  "diff": 0.003,
+  "p": 0.625,
+  "wins": 5
+ },
+ "wilcoxon::kodagu->wayanad: S4_no_rainfall - S1 | XGB": {
+  "diff": 0.02,
+  "p": 0.1055,
+  "wins": 6
+ },
+ "wilcoxon::wayanad: spatial CV - random CV | LGBM": {
+  "diff": -0.021,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad: spatial CV S4 - S1 | LGBM": {
+  "diff": -0.034,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV - random CV | LGBM": {
+  "diff": -0.031,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu: spatial CV S4 - S1 | LGBM": {
+  "diff": -0.035,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: transfer S1 - target spatial CV | LGBM": {
+  "diff": -0.216,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::wayanad->kodagu: S2_regional_z - S1 | LGBM": {
+  "diff": 0.115,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::wayanad->kodagu: S3_drop_shifted - S1 | LGBM": {
+  "diff": 0.037,
+  "p": 0.0059,
+  "wins": 9
+ },
+ "wilcoxon::wayanad->kodagu: S4_no_rainfall - S1 | LGBM": {
+  "diff": 0.098,
+  "p": 0.002,
+  "wins": 10
+ },
+ "wilcoxon::kodagu->wayanad: transfer S1 - target spatial CV | LGBM": {
+  "diff": -0.093,
+  "p": 0.002,
+  "wins": 0
+ },
+ "wilcoxon::kodagu->wayanad: S2_regional_z - S1 | LGBM": {
+  "diff": -0.01,
+  "p": 0.1602,
+  "wins": 2
+ },
+ "wilcoxon::kodagu->wayanad: S3_drop_shifted - S1 | LGBM": {
+  "diff": -0.011,
+  "p": 0.0137,
+  "wins": 1
+ },
+ "wilcoxon::kodagu->wayanad: S4_no_rainfall - S1 | LGBM": {
+  "diff": -0.003,
+  "p": 0.8457,
+  "wins": 3
+ },
+ "auc_kodagu_spatialCV_S4_LGBM": 0.894,
+ "auc_kodagu_spatialCV_S4_LR": 0.868,
+ "auc_kodagu_spatialCV_S4_RF": 0.902,
+ "auc_kodagu_spatialCV_S4_XGB": 0.891,
+ "auc_wayanad_spatialCV_S4_LGBM": 0.854,
+ "auc_wayanad_spatialCV_S4_LR": 0.852,
+ "auc_wayanad_spatialCV_S4_RF": 0.867,
+ "auc_wayanad_spatialCV_S4_XGB": 0.852,
+ "shap_rain_aug2018": {
+  "w": 1.11,
+  "k": 1.71,
+  "rank_w": 1,
+  "rank_k": 1,
+  "agree": -0.18
+ },
+ "shap_soil_bdod": {
+  "w": 0.83,
+  "k": 0.7,
+  "rank_w": 2,
+  "rank_k": 4,
+  "agree": 0.27
+ },
+ "shap_tri": {
+  "w": 0.82,
+  "k": 0.87,
+  "rank_w": 3,
+  "rank_k": 2,
+  "agree": 0.87
+ },
+ "shap_rain_annual_mean": {
+  "w": 0.72,
+  "k": 0.81,
+  "rank_w": 4,
+  "rank_k": 3,
+  "agree": -0.0
+ },
+ "shap_elevation": {
+  "w": 0.42,
+  "k": 0.47,
+  "rank_w": 5,
+  "rank_k": 6,
+  "agree": 0.05
+ },
+ "shap_slope": {
+  "w": 0.39,
+  "k": 0.25,
+  "rank_w": 6,
+  "rank_k": 13,
+  "agree": 0.46
+ },
+ "shap_spi": {
+  "w": 0.28,
+  "k": 0.13,
+  "rank_w": 7,
+  "rank_k": 16,
+  "agree": 0.22
+ },
+ "shap_soil_clay": {
+  "w": 0.25,
+  "k": 0.27,
+  "rank_w": 8,
+  "rank_k": 9,
+  "agree": 0.17
+ },
+ "shap_twi": {
+  "w": 0.23,
+  "k": 0.31,
+  "rank_w": 9,
+  "rank_k": 8,
+  "agree": 0.43
+ },
+ "shap_plan_curvature": {
+  "w": 0.23,
+  "k": 0.17,
+  "rank_w": 10,
+  "rank_k": 14,
+  "agree": 0.21
+ },
+ "shap_profile_curvature": {
+  "w": 0.22,
+  "k": 0.26,
+  "rank_w": 11,
+  "rank_k": 12,
+  "agree": 0.13
+ },
+ "shap_dist_streams": {
+  "w": 0.22,
+  "k": 0.26,
+  "rank_w": 12,
+  "rank_k": 11,
+  "agree": 0.34
+ },
+ "shap_eastness": {
+  "w": 0.2,
+  "k": 0.17,
+  "rank_w": 13,
+  "rank_k": 15,
+  "agree": 0.08
+ },
+ "shap_northness": {
+  "w": 0.18,
+  "k": 0.36,
+  "rank_w": 14,
+  "rank_k": 7,
+  "agree": 0.04
+ },
+ "shap_soil_sand": {
+  "w": 0.15,
+  "k": 0.27,
+  "rank_w": 15,
+  "rank_k": 10,
+  "agree": 0.1
+ },
+ "shap_lithology": {
+  "w": 0.11,
+  "k": 0.53,
+  "rank_w": 16,
+  "rank_k": 5,
+  "agree": 0.38
+ },
+ "shap_landcover": {
+  "w": 0.01,
+  "k": 0.04,
+  "rank_w": 17,
+  "rank_k": 17,
+  "agree": -0.87
+ },
+ "shap_rank_agreement": {
+  "spearman_local_models": [
+   0.5637254901960785,
+   0.0184349895156923
+  ],
+  "spearman_transferred_vs_local_on_kodagu": [
+   0.46813725490196084,
+   0.058071924895836145
+  ]
+ },
+ "cls_kodagu_from_wayanad_S1": {
+  "vh_pct": 48.7,
+  "hvh_pct": 87.0,
+  "vl_l_pct": 0.8,
+  "fr_vh": 2.43
+ },
+ "cls_kodagu_from_wayanad_S2": {
+  "vh_pct": 71.6,
+  "hvh_pct": 96.9,
+  "vl_l_pct": 0.0,
+  "fr_vh": 3.58
+ },
+ "cls_kodagu_from_wayanad_S3": {
+  "vh_pct": 57.5,
+  "hvh_pct": 88.1,
+  "vl_l_pct": 0.8,
+  "fr_vh": 2.87
+ },
+ "cls_kodagu_from_wayanad_S4": {
+  "vh_pct": 67.0,
+  "hvh_pct": 90.8,
+  "vl_l_pct": 1.1,
+  "fr_vh": 3.35
+ },
+ "roads_shap": {
+  "w": 0.33,
+  "k": 1.03,
+  "rank_w": 7,
+  "rank_k": 2
+ },
+ "roads_rank_agreement": {
+  "spearman_local_models": [
+   0.5789473684210527,
+   0.011818464080461803
+  ],
+  "spearman_transferred_vs_local_on_kodagu": [
+   0.5521155830753354,
+   0.017512914698683393
+  ]
+ },
+ "inventory": {
+  "wayanad": {
+   "district": "wayanad",
+   "n_points": 325,
+   "area_km2": 2025.87,
+   "density_per_100km2": 16.04,
+   "nn_mean_m": 505.3,
+   "nn_median_m": 332.9,
+   "clark_evans_R": 0.405,
+   "slope_median": 21.9,
+   "slope_p90": 32.2,
+   "elev_median": 907.0,
+   "tri_median": 30.7,
+   "rain_aug2018_median": 449.0
+  },
+  "kodagu": {
+   "district": "kodagu",
+   "n_points": 267,
+   "area_km2": 4127.51,
+   "density_per_100km2": 6.47,
+   "nn_mean_m": 362.4,
+   "nn_median_m": 167.6,
+   "clark_evans_R": 0.184,
+   "slope_median": 21.4,
+   "slope_p90": 31.2,
+   "elev_median": 1035.0,
+   "tri_median": 29.8,
+   "rain_aug2018_median": 896.0
+  }
+ },
+ "vif": {
+  "elevation": 3.07,
+  "slope": 32.94,
+  "northness": 1.01,
+  "eastness": 1.01,
+  "plan_curvature": 1.46,
+  "profile_curvature": 1.27,
+  "tri": 26.48,
+  "twi": 5.33,
+  "spi": 4.56,
+  "dist_streams": 1.17,
+  "rain_annual_mean": 12.93,
+  "rain_aug2018": 9.14,
+  "soil_clay": 1.65,
+  "soil_sand": 2.99,
+  "soil_bdod": 2.72
+ },
+ "adv_greedy": {
+  "1": {
+   "added": "rain_aug2018",
+   "auc": 0.841
+  },
+  "2": {
+   "added": "rain_annual_mean",
+   "auc": 0.981
+  },
+  "3": {
+   "added": "lith_peninsular_gneiss",
+   "auc": 0.997
+  },
+  "4": {
+   "added": "elevation",
+   "auc": 0.999
+  },
+  "5": {
+   "added": "soil_bdod",
+   "auc": 1.0
+  },
+  "6": {
+   "added": "soil_sand",
+   "auc": 1.0
+  }
+ },
+ "adv_decomp": {
+  "all factors": 1.0,
+  "all continuous": 1.0,
+  "all minus rainfall": 0.977,
+  "all minus rainfall and elevation": 0.861,
+  "stable factors only (marginal AUC <= 0.55)": 0.791,
+  "terrain and hydrology only": 0.585,
+  "terrain derivatives only": 0.572,
+  "hydrology only": 0.564,
+  "soil only": 0.811,
+  "rainfall only": 0.98,
+  "elevation only": 0.804,
+  "lithology and land cover only": 0.61,
+  "lithology only": 0.587
+ },
+ "factorsets": {
+  "kodagu|S1_all|LGBM": {
+   "auc": 0.795,
+   "sd": 0.032,
+   "gap": 0.092
+  },
+  "kodagu|S1_all|LR": {
+   "auc": 0.728,
+   "sd": 0.019,
+   "gap": 0.121
+  },
+  "kodagu|S1_all|RF": {
+   "auc": 0.835,
+   "sd": 0.02,
+   "gap": 0.058
+  },
+  "kodagu|S1_all|XGB": {
+   "auc": 0.785,
+   "sd": 0.041,
+   "gap": 0.099
+  },
+  "kodagu|S3_no_event_rain|LGBM": {
+   "auc": 0.783,
+   "sd": 0.028,
+   "gap": 0.08
+  },
+  "kodagu|S3_no_event_rain|LR": {
+   "auc": 0.743,
+   "sd": 0.017,
+   "gap": 0.107
+  },
+  "kodagu|S3_no_event_rain|RF": {
+   "auc": 0.834,
+   "sd": 0.014,
+   "gap": 0.042
+  },
+  "kodagu|S3_no_event_rain|XGB": {
+   "auc": 0.785,
+   "sd": 0.025,
+   "gap": 0.071
+  },
+  "kodagu|S4_no_rainfall|LGBM": {
+   "auc": 0.792,
+   "sd": 0.014,
+   "gap": 0.064
+  },
+  "kodagu|S4_no_rainfall|LR": {
+   "auc": 0.764,
+   "sd": 0.013,
+   "gap": 0.091
+  },
+  "kodagu|S4_no_rainfall|RF": {
+   "auc": 0.818,
+   "sd": 0.015,
+   "gap": 0.05
+  },
+  "kodagu|S4_no_rainfall|XGB": {
+   "auc": 0.804,
+   "sd": 0.015,
+   "gap": 0.048
+  },
+  "kodagu|T1_terrain_only|LGBM": {
+   "auc": 0.768,
+   "sd": 0.024,
+   "gap": 0.027
+  },
+  "kodagu|T1_terrain_only|LR": {
+   "auc": 0.823,
+   "sd": 0.015,
+   "gap": 0.008
+  },
+  "kodagu|T1_terrain_only|RF": {
+   "auc": 0.801,
+   "sd": 0.024,
+   "gap": 0.017
+  },
+  "kodagu|T1_terrain_only|XGB": {
+   "auc": 0.772,
+   "sd": 0.026,
+   "gap": 0.024
+  },
+  "kodagu|T2_terrain_elev|LGBM": {
+   "auc": 0.82,
+   "sd": 0.024,
+   "gap": -0.0
+  },
+  "kodagu|T2_terrain_elev|LR": {
+   "auc": 0.827,
+   "sd": 0.013,
+   "gap": 0.002
+  },
+  "kodagu|T2_terrain_elev|RF": {
+   "auc": 0.841,
+   "sd": 0.017,
+   "gap": -0.003
+  },
+  "kodagu|T2_terrain_elev|XGB": {
+   "auc": 0.822,
+   "sd": 0.022,
+   "gap": -0.003
+  },
+  "kodagu|T3_stable_only|LGBM": {
+   "auc": 0.751,
+   "sd": 0.014,
+   "gap": 0.095
+  },
+  "kodagu|T3_stable_only|LR": {
+   "auc": 0.755,
+   "sd": 0.012,
+   "gap": 0.096
+  },
+  "kodagu|T3_stable_only|RF": {
+   "auc": 0.79,
+   "sd": 0.015,
+   "gap": 0.069
+  },
+  "kodagu|T3_stable_only|XGB": {
+   "auc": 0.757,
+   "sd": 0.016,
+   "gap": 0.088
+  },
+  "wayanad|S1_all|LGBM": {
+   "auc": 0.714,
+   "sd": 0.044,
+   "gap": 0.217
+  },
+  "wayanad|S1_all|LR": {
+   "auc": 0.712,
+   "sd": 0.027,
+   "gap": 0.201
+  },
+  "wayanad|S1_all|RF": {
+   "auc": 0.806,
+   "sd": 0.019,
+   "gap": 0.127
+  },
+  "wayanad|S1_all|XGB": {
+   "auc": 0.748,
+   "sd": 0.044,
+   "gap": 0.18
+  },
+  "wayanad|S3_no_event_rain|LGBM": {
+   "auc": 0.751,
+   "sd": 0.026,
+   "gap": 0.172
+  },
+  "wayanad|S3_no_event_rain|LR": {
+   "auc": 0.724,
+   "sd": 0.022,
+   "gap": 0.162
+  },
+  "wayanad|S3_no_event_rain|RF": {
+   "auc": 0.825,
+   "sd": 0.012,
+   "gap": 0.101
+  },
+  "wayanad|S3_no_event_rain|XGB": {
+   "auc": 0.774,
+   "sd": 0.032,
+   "gap": 0.145
+  },
+  "wayanad|S4_no_rainfall|LGBM": {
+   "auc": 0.811,
+   "sd": 0.024,
+   "gap": 0.082
+  },
+  "wayanad|S4_no_rainfall|LR": {
+   "auc": 0.722,
+   "sd": 0.022,
+   "gap": 0.145
+  },
+  "wayanad|S4_no_rainfall|RF": {
+   "auc": 0.829,
+   "sd": 0.011,
+   "gap": 0.07
+  },
+  "wayanad|S4_no_rainfall|XGB": {
+   "auc": 0.817,
+   "sd": 0.018,
+   "gap": 0.073
+  },
+  "wayanad|T1_terrain_only|LGBM": {
+   "auc": 0.773,
+   "sd": 0.021,
+   "gap": -0.022
+  },
+  "wayanad|T1_terrain_only|LR": {
+   "auc": 0.792,
+   "sd": 0.018,
+   "gap": -0.02
+  },
+  "wayanad|T1_terrain_only|RF": {
+   "auc": 0.794,
+   "sd": 0.019,
+   "gap": -0.025
+  },
+  "wayanad|T1_terrain_only|XGB": {
+   "auc": 0.774,
+   "sd": 0.022,
+   "gap": -0.022
+  },
+  "wayanad|T2_terrain_elev|LGBM": {
+   "auc": 0.815,
+   "sd": 0.016,
+   "gap": -0.003
+  },
+  "wayanad|T2_terrain_elev|LR": {
+   "auc": 0.796,
+   "sd": 0.029,
+   "gap": 0.006
+  },
+  "wayanad|T2_terrain_elev|RF": {
+   "auc": 0.828,
+   "sd": 0.018,
+   "gap": -0.011
+  },
+  "wayanad|T2_terrain_elev|XGB": {
+   "auc": 0.816,
+   "sd": 0.019,
+   "gap": -0.005
+  },
+  "wayanad|T3_stable_only|LGBM": {
+   "auc": 0.791,
+   "sd": 0.017,
+   "gap": 0.09
+  },
+  "wayanad|T3_stable_only|LR": {
+   "auc": 0.767,
+   "sd": 0.019,
+   "gap": 0.094
+  },
+  "wayanad|T3_stable_only|RF": {
+   "auc": 0.807,
+   "sd": 0.011,
+   "gap": 0.077
+  },
+  "wayanad|T3_stable_only|XGB": {
+   "auc": 0.794,
+   "sd": 0.018,
+   "gap": 0.082
+  }
+ },
+ "factorsets_cv": {
+  "kodagu|S1_all|LGBM": 0.93,
+  "kodagu|S1_all|LR": 0.913,
+  "kodagu|S1_all|RF": 0.933,
+  "kodagu|S1_all|XGB": 0.929,
+  "kodagu|S3_no_event_rain|LGBM": 0.923,
+  "kodagu|S3_no_event_rain|LR": 0.886,
+  "kodagu|S3_no_event_rain|RF": 0.927,
+  "kodagu|S3_no_event_rain|XGB": 0.919,
+  "kodagu|S4_no_rainfall|LGBM": 0.893,
+  "kodagu|S4_no_rainfall|LR": 0.867,
+  "kodagu|S4_no_rainfall|RF": 0.898,
+  "kodagu|S4_no_rainfall|XGB": 0.89,
+  "kodagu|T1_terrain_only|LGBM": 0.751,
+  "kodagu|T1_terrain_only|LR": 0.772,
+  "kodagu|T1_terrain_only|RF": 0.77,
+  "kodagu|T1_terrain_only|XGB": 0.752,
+  "kodagu|T2_terrain_elev|LGBM": 0.811,
+  "kodagu|T2_terrain_elev|LR": 0.803,
+  "kodagu|T2_terrain_elev|RF": 0.817,
+  "kodagu|T2_terrain_elev|XGB": 0.811,
+  "kodagu|T3_stable_only|LGBM": 0.881,
+  "kodagu|T3_stable_only|LR": 0.861,
+  "kodagu|T3_stable_only|RF": 0.884,
+  "kodagu|T3_stable_only|XGB": 0.876,
+  "wayanad|S1_all|LGBM": 0.887,
+  "wayanad|S1_all|LR": 0.849,
+  "wayanad|S1_all|RF": 0.893,
+  "wayanad|S1_all|XGB": 0.884,
+  "wayanad|S3_no_event_rain|LGBM": 0.863,
+  "wayanad|S3_no_event_rain|LR": 0.85,
+  "wayanad|S3_no_event_rain|RF": 0.876,
+  "wayanad|S3_no_event_rain|XGB": 0.856,
+  "wayanad|S4_no_rainfall|LGBM": 0.856,
+  "wayanad|S4_no_rainfall|LR": 0.854,
+  "wayanad|S4_no_rainfall|RF": 0.868,
+  "wayanad|S4_no_rainfall|XGB": 0.852,
+  "wayanad|T1_terrain_only|LGBM": 0.795,
+  "wayanad|T1_terrain_only|LR": 0.831,
+  "wayanad|T1_terrain_only|RF": 0.818,
+  "wayanad|T1_terrain_only|XGB": 0.796,
+  "wayanad|T2_terrain_elev|LGBM": 0.819,
+  "wayanad|T2_terrain_elev|LR": 0.829,
+  "wayanad|T2_terrain_elev|RF": 0.839,
+  "wayanad|T2_terrain_elev|XGB": 0.819,
+  "wayanad|T3_stable_only|LGBM": 0.846,
+  "wayanad|T3_stable_only|LR": 0.85,
+  "wayanad|T3_stable_only|RF": 0.859,
+  "wayanad|T3_stable_only|XGB": 0.845
+ },
+ "steep": {
+  "S1_all|spatial_cv|kodagu|LGBM": {
+   "ge0": 0.93,
+   "ge15": 0.897,
+   "ge20": 0.913,
+   "ge25": 0.905
+  },
+  "S1_all|spatial_cv|kodagu|LR": {
+   "ge0": 0.913,
+   "ge15": 0.856,
+   "ge20": 0.857,
+   "ge25": 0.847
+  },
+  "S1_all|spatial_cv|kodagu|RF": {
+   "ge0": 0.933,
+   "ge15": 0.896,
+   "ge20": 0.913,
+   "ge25": 0.905
+  },
+  "S1_all|spatial_cv|kodagu|XGB": {
+   "ge0": 0.929,
+   "ge15": 0.892,
+   "ge20": 0.908,
+   "ge25": 0.905
+  },
+  "S1_all|spatial_cv|wayanad|LGBM": {
+   "ge0": 0.887,
+   "ge15": 0.751,
+   "ge20": 0.704,
+   "ge25": 0.668
+  },
+  "S1_all|spatial_cv|wayanad|LR": {
+   "ge0": 0.849,
+   "ge15": 0.66,
+   "ge20": 0.581,
+   "ge25": 0.58
+  },
+  "S1_all|spatial_cv|wayanad|RF": {
+   "ge0": 0.893,
+   "ge15": 0.758,
+   "ge20": 0.705,
+   "ge25": 0.687
+  },
+  "S1_all|spatial_cv|wayanad|XGB": {
+   "ge0": 0.884,
+   "ge15": 0.747,
+   "ge20": 0.695,
+   "ge25": 0.67
+  },
+  "S1_all|transfer|kodagu|LGBM": {
+   "ge0": 0.795,
+   "ge15": 0.595,
+   "ge20": 0.586,
+   "ge25": 0.655
+  },
+  "S1_all|transfer|kodagu|LR": {
+   "ge0": 0.728,
+   "ge15": 0.613,
+   "ge20": 0.606,
+   "ge25": 0.66
+  },
+  "S1_all|transfer|kodagu|RF": {
+   "ge0": 0.835,
+   "ge15": 0.629,
+   "ge20": 0.61,
+   "ge25": 0.686
+  },
+  "S1_all|transfer|kodagu|XGB": {
+   "ge0": 0.785,
+   "ge15": 0.573,
+   "ge20": 0.558,
+   "ge25": 0.631
+  },
+  "S1_all|transfer|wayanad|LGBM": {
+   "ge0": 0.714,
+   "ge15": 0.492,
+   "ge20": 0.457,
+   "ge25": 0.481
+  },
+  "S1_all|transfer|wayanad|LR": {
+   "ge0": 0.712,
+   "ge15": 0.389,
+   "ge20": 0.323,
+   "ge25": 0.312
+  },
+  "S1_all|transfer|wayanad|RF": {
+   "ge0": 0.806,
+   "ge15": 0.596,
+   "ge20": 0.567,
+   "ge25": 0.594
+  },
+  "S1_all|transfer|wayanad|XGB": {
+   "ge0": 0.748,
+   "ge15": 0.542,
+   "ge20": 0.502,
+   "ge25": 0.513
+  },
+  "T2_terrain_elev|spatial_cv|kodagu|LGBM": {
+   "ge0": 0.811,
+   "ge15": 0.637,
+   "ge20": 0.657,
+   "ge25": 0.649
+  },
+  "T2_terrain_elev|spatial_cv|kodagu|LR": {
+   "ge0": 0.803,
+   "ge15": 0.617,
+   "ge20": 0.587,
+   "ge25": 0.562
+  },
+  "T2_terrain_elev|spatial_cv|kodagu|RF": {
+   "ge0": 0.817,
+   "ge15": 0.635,
+   "ge20": 0.652,
+   "ge25": 0.638
+  },
+  "T2_terrain_elev|spatial_cv|kodagu|XGB": {
+   "ge0": 0.811,
+   "ge15": 0.633,
+   "ge20": 0.649,
+   "ge25": 0.636
+  },
+  "T2_terrain_elev|spatial_cv|wayanad|LGBM": {
+   "ge0": 0.819,
+   "ge15": 0.617,
+   "ge20": 0.557,
+   "ge25": 0.558
+  },
+  "T2_terrain_elev|spatial_cv|wayanad|LR": {
+   "ge0": 0.829,
+   "ge15": 0.603,
+   "ge20": 0.488,
+   "ge25": 0.446
+  },
+  "T2_terrain_elev|spatial_cv|wayanad|RF": {
+   "ge0": 0.839,
+   "ge15": 0.645,
+   "ge20": 0.573,
+   "ge25": 0.579
+  },
+  "T2_terrain_elev|spatial_cv|wayanad|XGB": {
+   "ge0": 0.819,
+   "ge15": 0.61,
+   "ge20": 0.548,
+   "ge25": 0.563
+  },
+  "T2_terrain_elev|transfer|kodagu|LGBM": {
+   "ge0": 0.82,
+   "ge15": 0.63,
+   "ge20": 0.603,
+   "ge25": 0.638
+  },
+  "T2_terrain_elev|transfer|kodagu|LR": {
+   "ge0": 0.827,
+   "ge15": 0.604,
+   "ge20": 0.496,
+   "ge25": 0.453
+  },
+  "T2_terrain_elev|transfer|kodagu|RF": {
+   "ge0": 0.841,
+   "ge15": 0.652,
+   "ge20": 0.609,
+   "ge25": 0.637
+  },
+  "T2_terrain_elev|transfer|kodagu|XGB": {
+   "ge0": 0.822,
+   "ge15": 0.625,
+   "ge20": 0.589,
+   "ge25": 0.62
+  },
+  "T2_terrain_elev|transfer|wayanad|LGBM": {
+   "ge0": 0.815,
+   "ge15": 0.647,
+   "ge20": 0.629,
+   "ge25": 0.611
+  },
+  "T2_terrain_elev|transfer|wayanad|LR": {
+   "ge0": 0.796,
+   "ge15": 0.574,
+   "ge20": 0.505,
+   "ge25": 0.469
+  },
+  "T2_terrain_elev|transfer|wayanad|RF": {
+   "ge0": 0.828,
+   "ge15": 0.663,
+   "ge20": 0.642,
+   "ge25": 0.629
+  },
+  "T2_terrain_elev|transfer|wayanad|XGB": {
+   "ge0": 0.816,
+   "ge15": 0.646,
+   "ge20": 0.629,
+   "ge25": 0.618
+  }
+ },
+ "thinning": {
+  "clustered|0.25|RF": {
+   "transfer": 0.801,
+   "cv": 0.856
+  },
+  "clustered|0.25|XGB": {
+   "transfer": 0.742,
+   "cv": 0.837
+  },
+  "clustered|0.41|RF": {
+   "transfer": 0.799,
+   "cv": 0.862
+  },
+  "clustered|0.41|XGB": {
+   "transfer": 0.734,
+   "cv": 0.848
+  },
+  "clustered|0.5|RF": {
+   "transfer": 0.81,
+   "cv": 0.87
+  },
+  "clustered|0.5|XGB": {
+   "transfer": 0.736,
+   "cv": 0.86
+  },
+  "clustered|0.75|RF": {
+   "transfer": 0.809,
+   "cv": 0.884
+  },
+  "clustered|0.75|XGB": {
+   "transfer": 0.746,
+   "cv": 0.868
+  },
+  "random|0.25|RF": {
+   "transfer": 0.822,
+   "cv": 0.876
+  },
+  "random|0.25|XGB": {
+   "transfer": 0.778,
+   "cv": 0.854
+  },
+  "random|0.41|RF": {
+   "transfer": 0.816,
+   "cv": 0.879
+  },
+  "random|0.41|XGB": {
+   "transfer": 0.785,
+   "cv": 0.864
+  },
+  "random|0.5|RF": {
+   "transfer": 0.809,
+   "cv": 0.883
+  },
+  "random|0.5|XGB": {
+   "transfer": 0.766,
+   "cv": 0.872
+  },
+  "random|0.75|RF": {
+   "transfer": 0.81,
+   "cv": 0.889
+  },
+  "random|0.75|XGB": {
+   "transfer": 0.763,
+   "cv": 0.881
+  },
+  "random|1.0|RF": {
+   "transfer": 0.806,
+   "cv": 0.894
+  },
+  "random|1.0|XGB": {
+   "transfer": 0.753,
+   "cv": 0.884
+  }
+ },
+ "fdr": {
+  "n_tests": 64,
+  "sig_raw": 52,
+  "sig_bh": 52
+ },
+ "shap_robust": {
+  "tri": {
+   "pearson": 0.866,
+   "lo": 0.821,
+   "hi": 0.906,
+   "spearman": 0.831,
+   "ccc": 0.83
+  },
+  "slope": {
+   "pearson": 0.591,
+   "lo": 0.377,
+   "hi": 0.746,
+   "spearman": 0.543,
+   "ccc": 0.483
+  },
+  "lithology": {
+   "pearson": 0.46,
+   "lo": 0.164,
+   "hi": 0.694,
+   "spearman": 0.082,
+   "ccc": 0.184
+  },
+  "twi": {
+   "pearson": 0.449,
+   "lo": 0.369,
+   "hi": 0.535,
+   "spearman": 0.394,
+   "ccc": 0.414
+  },
+  "dist_streams": {
+   "pearson": 0.356,
+   "lo": 0.199,
+   "hi": 0.497,
+   "spearman": 0.36,
+   "ccc": 0.331
+  },
+  "soil_bdod": {
+   "pearson": 0.307,
+   "lo": 0.186,
+   "hi": 0.442,
+   "spearman": 0.209,
+   "ccc": 0.273
+  },
+  "plan_curvature": {
+   "pearson": 0.203,
+   "lo": -0.046,
+   "hi": 0.423,
+   "spearman": 0.246,
+   "ccc": 0.181
+  },
+  "soil_clay": {
+   "pearson": 0.158,
+   "lo": 0.002,
+   "hi": 0.321,
+   "spearman": 0.163,
+   "ccc": 0.143
+  },
+  "spi": {
+   "pearson": 0.157,
+   "lo": -0.059,
+   "hi": 0.381,
+   "spearman": 0.122,
+   "ccc": 0.142
+  },
+  "soil_sand": {
+   "pearson": 0.096,
+   "lo": -0.018,
+   "hi": 0.21,
+   "spearman": 0.06,
+   "ccc": 0.09
+  },
+  "northness": {
+   "pearson": 0.074,
+   "lo": -0.233,
+   "hi": 0.375,
+   "spearman": 0.081,
+   "ccc": 0.079
+  },
+  "eastness": {
+   "pearson": 0.074,
+   "lo": -0.155,
+   "hi": 0.289,
+   "spearman": 0.094,
+   "ccc": 0.054
+  },
+  "elevation": {
+   "pearson": 0.045,
+   "lo": -0.125,
+   "hi": 0.201,
+   "spearman": 0.053,
+   "ccc": 0.025
+  },
+  "profile_curvature": {
+   "pearson": 0.034,
+   "lo": -0.083,
+   "hi": 0.163,
+   "spearman": 0.027,
+   "ccc": 0.033
+  },
+  "rain_annual_mean": {
+   "pearson": -0.007,
+   "lo": -0.046,
+   "hi": 0.023,
+   "spearman": -0.064,
+   "ccc": -0.006
+  },
+  "rain_aug2018": {
+   "pearson": -0.177,
+   "lo": -0.261,
+   "hi": -0.091,
+   "spearman": -0.37,
+   "ccc": -0.118
+  },
+  "landcover": {
+   "pearson": -0.819,
+   "lo": -0.916,
+   "hi": -0.704,
+   "spearman": -0.274,
+   "ccc": -0.459
+  }
+ },
+ "tuning": {
+  "kodagu|LGBM": {
+   "cv_AUC_default": 0.925,
+   "cv_AUC_tuned": 0.928,
+   "transfer_AUC_default": 0.82,
+   "transfer_AUC_tuned": 0.826
+  },
+  "kodagu|LR": {
+   "cv_AUC_default": 0.919,
+   "cv_AUC_tuned": 0.931,
+   "transfer_AUC_default": 0.723,
+   "transfer_AUC_tuned": 0.632
+  },
+  "kodagu|RF": {
+   "cv_AUC_default": 0.923,
+   "cv_AUC_tuned": 0.925,
+   "transfer_AUC_default": 0.851,
+   "transfer_AUC_tuned": 0.852
+  },
+  "kodagu|XGB": {
+   "cv_AUC_default": 0.922,
+   "cv_AUC_tuned": 0.928,
+   "transfer_AUC_default": 0.825,
+   "transfer_AUC_tuned": 0.835
+  },
+  "wayanad|LGBM": {
+   "cv_AUC_default": 0.885,
+   "cv_AUC_tuned": 0.892,
+   "transfer_AUC_default": 0.716,
+   "transfer_AUC_tuned": 0.775
+  },
+  "wayanad|LR": {
+   "cv_AUC_default": 0.852,
+   "cv_AUC_tuned": 0.856,
+   "transfer_AUC_default": 0.724,
+   "transfer_AUC_tuned": 0.786
+  },
+  "wayanad|RF": {
+   "cv_AUC_default": 0.889,
+   "cv_AUC_tuned": 0.892,
+   "transfer_AUC_default": 0.817,
+   "transfer_AUC_tuned": 0.813
+  },
+  "wayanad|XGB": {
+   "cv_AUC_default": 0.878,
+   "cv_AUC_tuned": 0.892,
+   "transfer_AUC_default": 0.753,
+   "transfer_AUC_tuned": 0.783
+  }
+ },
+ "tuning_rank": {
+  "wayanad": {
+   "cv": [
+    "XGB",
+    "RF",
+    "LGBM",
+    "LR"
+   ],
+   "transfer": [
+    "RF",
+    "LR",
+    "XGB",
+    "LGBM"
+   ]
+  },
+  "kodagu": {
+   "cv": [
+    "LR",
+    "LGBM",
+    "XGB",
+    "RF"
+   ],
+   "transfer": [
+    "RF",
+    "XGB",
+    "LGBM",
+    "LR"
+   ]
+  }
+ },
+ "rainfall_probe": {
+  "V0_all_factors|kodagu|RF": {
+   "cv": 0.933,
+   "transfer": 0.835
+  },
+  "V0_all_factors|kodagu|XGB": {
+   "cv": 0.929,
+   "transfer": 0.785
+  },
+  "V0_all_factors|wayanad|RF": {
+   "cv": 0.893,
+   "transfer": 0.806
+  },
+  "V0_all_factors|wayanad|XGB": {
+   "cv": 0.884,
+   "transfer": 0.748
+  },
+  "V1_no_rainfall|kodagu|RF": {
+   "cv": 0.898,
+   "transfer": 0.818
+  },
+  "V1_no_rainfall|kodagu|XGB": {
+   "cv": 0.89,
+   "transfer": 0.804
+  },
+  "V1_no_rainfall|wayanad|RF": {
+   "cv": 0.868,
+   "transfer": 0.829
+  },
+  "V1_no_rainfall|wayanad|XGB": {
+   "cv": 0.852,
+   "transfer": 0.817
+  },
+  "V2_rainfall_replaced_by_spatial_trend|kodagu|RF": {
+   "cv": 0.969,
+   "transfer": 0.694
+  },
+  "V2_rainfall_replaced_by_spatial_trend|kodagu|XGB": {
+   "cv": 0.963,
+   "transfer": 0.638
+  },
+  "V2_rainfall_replaced_by_spatial_trend|wayanad|RF": {
+   "cv": 0.909,
+   "transfer": 0.822
+  },
+  "V2_rainfall_replaced_by_spatial_trend|wayanad|XGB": {
+   "cv": 0.897,
+   "transfer": 0.821
+  },
+  "V3_rainfall_only|kodagu|RF": {
+   "cv": 0.901,
+   "transfer": 0.6
+  },
+  "V3_rainfall_only|kodagu|XGB": {
+   "cv": 0.851,
+   "transfer": 0.618
+  },
+  "V3_rainfall_only|wayanad|RF": {
+   "cv": 0.852,
+   "transfer": 0.568
+  },
+  "V3_rainfall_only|wayanad|XGB": {
+   "cv": 0.733,
+   "transfer": 0.589
+  },
+  "V4_spatial_trend_only|kodagu|RF": {
+   "cv": 0.966,
+   "transfer": 0.527
+  },
+  "V4_spatial_trend_only|kodagu|XGB": {
+   "cv": 0.957,
+   "transfer": 0.563
+  },
+  "V4_spatial_trend_only|wayanad|RF": {
+   "cv": 0.868,
+   "transfer": 0.302
+  },
+  "V4_spatial_trend_only|wayanad|XGB": {
+   "cv": 0.863,
+   "transfer": 0.378
+  },
+  "V5_terrain_fine_slope_tri|kodagu|RF": {
+   "cv": 0.763,
+   "transfer": 0.8
+  },
+  "V5_terrain_fine_slope_tri|kodagu|XGB": {
+   "cv": 0.76,
+   "transfer": 0.8
+  },
+  "V5_terrain_fine_slope_tri|wayanad|RF": {
+   "cv": 0.801,
+   "transfer": 0.793
+  },
+  "V5_terrain_fine_slope_tri|wayanad|XGB": {
+   "cv": 0.802,
+   "transfer": 0.793
+  },
+  "V6_terrain_coarsened_to_chirps_grid|kodagu|RF": {
+   "cv": 0.949,
+   "transfer": 0.728
+  },
+  "V6_terrain_coarsened_to_chirps_grid|kodagu|XGB": {
+   "cv": 0.951,
+   "transfer": 0.791
+  },
+  "V6_terrain_coarsened_to_chirps_grid|wayanad|RF": {
+   "cv": 0.864,
+   "transfer": 0.809
+  },
+  "V6_terrain_coarsened_to_chirps_grid|wayanad|XGB": {
+   "cv": 0.862,
+   "transfer": 0.808
+  }
+ },
+ "roads": {
+  "effect_agreement_r": 0.573,
+  "effect_agreement_sd": 0.324,
+  "mean_abs_shap_wayanad": 0.335,
+  "mean_abs_shap_kodagu": 1.081,
+  "rank_wayanad": 7.0,
+  "rank_kodagu": 2.0
+ }
+}

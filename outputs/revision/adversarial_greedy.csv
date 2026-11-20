@@ -1,0 +1,7 @@
+step,added,cumulative_adv_AUC,marginal_AUC
+1,rain_aug2018,0.8412,0.8124550387499999
+2,rain_annual_mean,0.9809,0.668285775
+3,lith_peninsular_gneiss,0.9973,
+4,elevation,0.9991,0.67542238
+5,soil_bdod,0.9998,0.5117819475000001
+6,soil_sand,0.9998,0.59321312125

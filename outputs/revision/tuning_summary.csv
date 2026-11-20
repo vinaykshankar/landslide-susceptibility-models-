@@ -1,0 +1,9 @@
+train,model,cv_AUC_default,cv_AUC_tuned,transfer_AUC_default,transfer_AUC_tuned
+kodagu,LGBM,0.925,0.928,0.82,0.826
+kodagu,LR,0.919,0.931,0.723,0.632
+kodagu,RF,0.923,0.925,0.851,0.852
+kodagu,XGB,0.922,0.928,0.825,0.835
+wayanad,LGBM,0.885,0.892,0.716,0.775
+wayanad,LR,0.852,0.856,0.724,0.786
+wayanad,RF,0.889,0.892,0.817,0.813
+wayanad,XGB,0.878,0.892,0.753,0.783
